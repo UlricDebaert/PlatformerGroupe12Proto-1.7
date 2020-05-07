@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MovingPlatform : MonoBehaviour
 {
-    public float speed;
+    public float speed = 9f;
 
     //public bool goUp;
     private bool playerIsOnMe;

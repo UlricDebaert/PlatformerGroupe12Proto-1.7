@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3395923830028970220}
   - component: {fileID: 3395923830028970210}
   m_Layer: 8
-  m_Name: Buildings_37
+  m_Name: Buildings_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: -8779421598459831143, guid: 991435fbbfe2fb14b94af0f6f9efcbc6,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

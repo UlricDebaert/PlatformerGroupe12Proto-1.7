@@ -10,9 +10,6 @@ public class InteractObject : MonoBehaviour
     public bool dead = false;
     private bool nearPlayer = false;
 
-    [SerializeField]
-    GameObject player;
-
     public void Start()
     {
         dead = false;
@@ -28,12 +25,16 @@ public class InteractObject : MonoBehaviour
 
     public void FixedUpdate()
     {
-        if (nearPlayer && PA.isAttacking)
+        if(PA != null)
         {
-            PS.score += 1;
-            dead = true;
-            gameObject.SetActive(false);
+            if (nearPlayer && PA.isAttacking)
+            {
+                PS.score += 1;
+                dead = true;
+                gameObject.SetActive(false);
+            }
         }
+
     }
 
     private void OnTriggerEnter2D(Collider2D other)

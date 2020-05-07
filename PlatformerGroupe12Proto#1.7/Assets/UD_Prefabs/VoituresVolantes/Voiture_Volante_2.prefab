@@ -10,9 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5373637337796469700}
   - component: {fileID: 5373637337796469696}
-  - component: {fileID: 5373637337796469699}
-  - component: {fileID: 5373637337796469698}
-  - component: {fileID: 5373637337796469701}
+  - component: {fileID: 3556714812533883705}
   m_Layer: 8
   m_Name: Voiture_Volante_2
   m_TagString: Ground
@@ -76,7 +74,7 @@ SpriteRenderer:
   m_Sprite: {fileID: -7087993014055791721, guid: e4f14e1388d8c234b820dd409c86e3de,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1.02, y: 0.59}
@@ -85,8 +83,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!70 &5373637337796469699
-CapsuleCollider2D:
+--- !u!60 &3556714812533883705
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -98,23 +96,7 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.03337922, y: 0.13583693}
-  m_Size: {x: 0.51475704, y: 0.26113304}
-  m_Direction: 1
---- !u!61 &5373637337796469698
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5373637337796469703}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.2692925, y: 0.2406927}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -124,32 +106,25 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.3860944, y: 0.10861462}
-  m_EdgeRadius: 0
---- !u!61 &5373637337796469701
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5373637337796469703}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.16205451, y: 0.021447822}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.02, y: 0.59}
-    newSize: {x: 1.02, y: 0.59}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.6386973, y: 0.20393834}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.2617961, y: 0.18717186}
+      - {x: 0.33750567, y: 0.1909786}
+      - {x: 0.45581824, y: 0.26293543}
+      - {x: 0.46893927, y: 0.2935305}
+      - {x: 0.091074884, y: 0.29224914}
+      - {x: 0.07483376, y: 0.27343047}
+      - {x: -0.13635713, y: 0.2739322}
+      - {x: -0.14667611, y: 0.28550628}
+      - {x: -0.20951469, y: 0.28437138}
+      - {x: -0.34588513, y: 0.13968582}
+      - {x: -0.5046859, y: 0.093814224}
+      - {x: -0.5007003, y: 0.027300015}
+      - {x: -0.4508422, y: -0.09304289}
+      - {x: -0.38195646, y: -0.13087124}
+      - {x: -0.05608648, y: -0.1288067}
+      - {x: 0.024101313, y: -0.07784087}
+      - {x: 0.42766774, y: -0.2909785}
+      - {x: 0.5039691, y: -0.19277482}
+      - {x: 0.38533548, y: -0.19315022}
+      - {x: 0.23142053, y: 0.009289864}
