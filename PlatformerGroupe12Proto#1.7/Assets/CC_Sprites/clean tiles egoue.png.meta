@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: 3ac6b38d6862cc24fab1886f234c2d05
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3492501700500265348
+    second: clean tiles egoue_0
+  - first:
+      213: -1210564165910121025
+    second: clean tiles egoue_1
+  - first:
+      213: 3482097246107306862
+    second: clean tiles egoue_2
+  - first:
+      213: 6747331355120550262
+    second: clean tiles egoue_3
+  - first:
+      213: 2084724412154760127
+    second: clean tiles egoue_4
+  - first:
+      213: 2066750558031476087
+    second: clean tiles egoue_5
+  - first:
+      213: 7987811909400485072
+    second: clean tiles egoue_6
+  - first:
+      213: -7844609074248077574
+    second: clean tiles egoue_7
+  - first:
+      213: -1820015870938057004
+    second: clean tiles egoue_8
+  - first:
+      213: -8586931470937102521
+    second: clean tiles egoue_9
+  - first:
+      213: -8521964235600992805
+    second: clean tiles egoue_10
+  - first:
+      213: -4309967413527290500
+    second: clean tiles egoue_11
+  - first:
+      213: 8669008865026503610
+    second: clean tiles egoue_12
+  - first:
+      213: 4876832506328364945
+    second: clean tiles egoue_13
+  - first:
+      213: 1179779527185263762
+    second: clean tiles egoue_14
+  - first:
+      213: 5073827892526460989
+    second: clean tiles egoue_15
+  - first:
+      213: -5119702728133911148
+    second: clean tiles egoue_16
+  - first:
+      213: -1725946888026931701
+    second: clean tiles egoue_17
+  - first:
+      213: 7685197553284260631
+    second: clean tiles egoue_18
+  - first:
+      213: 8533441781583916479
+    second: clean tiles egoue_19
+  - first:
+      213: 2016341893542448442
+    second: clean tiles egoue_20
+  - first:
+      213: 7843238582081179740
+    second: clean tiles egoue_21
+  - first:
+      213: -5281619362414377090
+    second: clean tiles egoue_22
+  - first:
+      213: -8771803388908666161
+    second: clean tiles egoue_23
+  - first:
+      213: -5688253379364164674
+    second: clean tiles egoue_24
+  - first:
+      213: 7426212591403875096
+    second: clean tiles egoue_25
+  - first:
+      213: 3297717382734950878
+    second: clean tiles egoue_26
+  - first:
+      213: 363146874149711006
+    second: clean tiles egoue_27
+  - first:
+      213: 5839451502991978828
+    second: clean tiles egoue_28
+  - first:
+      213: -3615020953912376383
+    second: clean tiles egoue_29
+  - first:
+      213: -6744675358077635229
+    second: clean tiles egoue_30
+  - first:
+      213: -7763006911282883085
+    second: clean tiles egoue_31
+  - first:
+      213: 8546409242359260571
+    second: clean tiles egoue_32
+  - first:
+      213: 8167535200702595588
+    second: clean tiles egoue_33
+  - first:
+      213: 3974059155849144162
+    second: clean tiles egoue_34
+  - first:
+      213: 7805810325178308867
+    second: clean tiles egoue_35
+  - first:
+      213: 1501519719526182239
+    second: clean tiles egoue_36
+  - first:
+      213: 8077426649258393097
+    second: clean tiles egoue_37
+  - first:
+      213: -1979495018875585406
+    second: clean tiles egoue_38
+  - first:
+      213: 2886169187442593915
+    second: clean tiles egoue_39
+  - first:
+      213: -2783366313002534954
+    second: clean tiles egoue_40
+  - first:
+      213: -8248979266930118807
+    second: clean tiles egoue_41
+  - first:
+      213: -823499110157633439
+    second: clean tiles egoue_42
+  - first:
+      213: -3055453731626148756
+    second: clean tiles egoue_43
+  - first:
+      213: 694693304974674523
+    second: clean tiles egoue_44
+  - first:
+      213: 5804941118022677416
+    second: clean tiles egoue_45
+  - first:
+      213: -2549612125385214812
+    second: clean tiles egoue_46
+  - first:
+      213: 4694243292065069361
+    second: clean tiles egoue_47
+  - first:
+      213: -5754687601192340562
+    second: clean tiles egoue_48
+  - first:
+      213: 6119758247055830429
+    second: clean tiles egoue_49
+  - first:
+      213: -3046637889372982211
+    second: clean tiles egoue_50
+  - first:
+      213: 8364707366464450907
+    second: clean tiles egoue_51
+  - first:
+      213: 2554796406012158665
+    second: clean tiles egoue_52
+  - first:
+      213: -3423921911187451047
+    second: clean tiles egoue_53
+  - first:
+      213: 5558915845999519353
+    second: clean tiles egoue_54
+  - first:
+      213: 2676567657181945507
+    second: clean tiles egoue_55
+  - first:
+      213: -8809076686579566621
+    second: clean tiles egoue_56
+  - first:
+      213: 1627023846828624373
+    second: clean tiles egoue_57
+  - first:
+      213: -3698745275172415008
+    second: clean tiles egoue_58
+  - first:
+      213: 2218107923919374640
+    second: clean tiles egoue_59
+  - first:
+      213: 4785838507549209627
+    second: clean tiles egoue_60
+  - first:
+      213: 5105339479318217701
+    second: clean tiles egoue_61
+  - first:
+      213: -1356747180757094427
+    second: clean tiles egoue_62
+  - first:
+      213: 5085659892278361595
+    second: clean tiles egoue_63
+  - first:
+      213: -2322908996442276029
+    second: clean tiles egoue_64
+  - first:
+      213: -9036600817706068556
+    second: clean tiles egoue_65
+  - first:
+      213: -5735239853699775602
+    second: clean tiles egoue_66
+  - first:
+      213: 131298585825284012
+    second: clean tiles egoue_67
+  - first:
+      213: -5687335911244749371
+    second: clean tiles egoue_68
+  - first:
+      213: -825857181294783127
+    second: clean tiles egoue_69
+  - first:
+      213: 4736169817699762196
+    second: clean tiles egoue_70
+  - first:
+      213: -2583998480822939345
+    second: clean tiles egoue_71
+  - first:
+      213: -2718492000278207739
+    second: clean tiles egoue_72
+  - first:
+      213: -6702382450545109602
+    second: clean tiles egoue_73
+  - first:
+      213: 511174064687576094
+    second: clean tiles egoue_74
+  - first:
+      213: -6835324242121929750
+    second: clean tiles egoue_75
+  - first:
+      213: -4398096728608611416
+    second: clean tiles egoue_76
+  - first:
+      213: -3352821177731685643
+    second: clean tiles egoue_77
+  - first:
+      213: -3607745925044280520
+    second: clean tiles egoue_78
+  - first:
+      213: -1656830200089130055
+    second: clean tiles egoue_79
+  - first:
+      213: 8210978667483538681
+    second: clean tiles egoue_80
+  - first:
+      213: 5958197087882315498
+    second: clean tiles egoue_81
+  - first:
+      213: -3542008638537295649
+    second: clean tiles egoue_82
+  - first:
+      213: 5645789478032032377
+    second: clean tiles egoue_83
+  - first:
+      213: 8869345625703822436
+    second: clean tiles egoue_84
+  - first:
+      213: -4103052221647626082
+    second: clean tiles egoue_85
+  - first:
+      213: 1506515504767561460
+    second: clean tiles egoue_86
+  - first:
+      213: 5736311977820229202
+    second: clean tiles egoue_87
+  - first:
+      213: -6946989538489244840
+    second: clean tiles egoue_88
+  - first:
+      213: -7650691554009740756
+    second: clean tiles egoue_89
+  - first:
+      213: -6205732419239655685
+    second: clean tiles egoue_90
+  - first:
+      213: 2684340966145325861
+    second: clean tiles egoue_91
+  - first:
+      213: 2000423854141456513
+    second: clean tiles egoue_92
+  - first:
+      213: -8602333510749536207
+    second: clean tiles egoue_93
+  - first:
+      213: 4131876372454289275
+    second: clean tiles egoue_94
+  - first:
+      213: -560678723454992526
+    second: clean tiles egoue_95
+  - first:
+      213: -2060651953102330482
+    second: clean tiles egoue_96
+  - first:
+      213: -3941894012832889821
+    second: clean tiles egoue_97
+  - first:
+      213: 4765300756975136982
+    second: clean tiles egoue_98
+  - first:
+      213: 1775605047863495006
+    second: clean tiles egoue_99
+  - first:
+      213: -8792979621017827821
+    second: clean tiles egoue_100
+  - first:
+      213: -5216258552631812322
+    second: clean tiles egoue_101
+  - first:
+      213: -695096232351954463
+    second: clean tiles egoue_102
+  - first:
+      213: 8892697703447930673
+    second: clean tiles egoue_103
+  - first:
+      213: -2474308406837190264
+    second: clean tiles egoue_104
+  - first:
+      213: 8807731407187329956
+    second: clean tiles egoue_105
+  - first:
+      213: -1777839904557907193
+    second: clean tiles egoue_106
+  - first:
+      213: 6687476796986548946
+    second: clean tiles egoue_107
+  - first:
+      213: -8146456332360857530
+    second: clean tiles egoue_108
+  - first:
+      213: -909758866687738659
+    second: clean tiles egoue_109
+  - first:
+      213: -7425993012985204727
+    second: clean tiles egoue_110
+  - first:
+      213: -40890650009933441
+    second: clean tiles egoue_111
+  - first:
+      213: 8378609037214998234
+    second: clean tiles egoue_112
+  - first:
+      213: 7571475962204220681
+    second: clean tiles egoue_113
+  - first:
+      213: -6008980244344386400
+    second: clean tiles egoue_114
+  - first:
+      213: 3952888110412364277
+    second: clean tiles egoue_115
+  - first:
+      213: -6349775819010605543
+    second: clean tiles egoue_116
+  - first:
+      213: 1669262753555065239
+    second: clean tiles egoue_117
+  - first:
+      213: 5308274285671380333
+    second: clean tiles egoue_118
+  - first:
+      213: 2977756743596321360
+    second: clean tiles egoue_119
+  - first:
+      213: 5414793682816793662
+    second: clean tiles egoue_120
+  - first:
+      213: -7762389579040458951
+    second: clean tiles egoue_121
+  - first:
+      213: 6834685171313201306
+    second: clean tiles egoue_122
+  - first:
+      213: -951077997416522912
+    second: clean tiles egoue_123
+  - first:
+      213: 9023898389657143468
+    second: clean tiles egoue_124
+  - first:
+      213: -6026798080079970241
+    second: clean tiles egoue_125
+  - first:
+      213: -2107387024236566296
+    second: clean tiles egoue_126
+  - first:
+      213: -403318508826643838
+    second: clean tiles egoue_127
+  - first:
+      213: 2600918446193482536
+    second: clean tiles egoue_128
+  - first:
+      213: -341009726399292314
+    second: clean tiles egoue_129
+  - first:
+      213: -2108285953338147020
+    second: clean tiles egoue_130
+  - first:
+      213: 3596438736076318203
+    second: clean tiles egoue_131
+  - first:
+      213: -1569184593245194174
+    second: clean tiles egoue_132
+  - first:
+      213: -8445575851479887242
+    second: clean tiles egoue_133
+  - first:
+      213: 1905434727111207722
+    second: clean tiles egoue_134
+  - first:
+      213: -5776281011883067393
+    second: clean tiles egoue_135
+  - first:
+      213: 8937681230595356358
+    second: clean tiles egoue_136
+  - first:
+      213: -7906723014158798205
+    second: clean tiles egoue_137
+  - first:
+      213: 433207330215849278
+    second: clean tiles egoue_138
+  - first:
+      213: 8776548670552461010
+    second: clean tiles egoue_139
+  - first:
+      213: -5740092661942344378
+    second: clean tiles egoue_140
+  - first:
+      213: -6732695998597892277
+    second: clean tiles egoue_141
+  - first:
+      213: 9192398953024128758
+    second: clean tiles egoue_142
+  - first:
+      213: -3681491852368255248
+    second: clean tiles egoue_143
+  - first:
+      213: -3635630508323640129
+    second: clean tiles egoue_144
+  - first:
+      213: -7998308069321673011
+    second: clean tiles egoue_145
+  - first:
+      213: 7639901451110713270
+    second: clean tiles egoue_146
+  - first:
+      213: 851483289692455422
+    second: clean tiles egoue_147
+  - first:
+      213: -1544775420145765866
+    second: clean tiles egoue_148
+  - first:
+      213: -4194046530592241445
+    second: clean tiles egoue_149
+  - first:
+      213: -6108262457012903538
+    second: clean tiles egoue_150
+  - first:
+      213: -1763007250855339532
+    second: clean tiles egoue_151
+  - first:
+      213: 3069851665892507661
+    second: clean tiles egoue_152
+  - first:
+      213: -6246340020931411025
+    second: clean tiles egoue_153
+  - first:
+      213: 6747610174060153334
+    second: clean tiles egoue_154
+  - first:
+      213: 801549046745593157
+    second: clean tiles egoue_155
+  - first:
+      213: 4205162887408344939
+    second: clean tiles egoue_156
+  - first:
+      213: 8209858127721960104
+    second: clean tiles egoue_157
+  - first:
+      213: 4031736263970963773
+    second: clean tiles egoue_158
+  - first:
+      213: 2402538689329693378
+    second: clean tiles egoue_159
+  - first:
+      213: 3321992762514018471
+    second: clean tiles egoue_160
+  - first:
+      213: 368637845845656000
+    second: clean tiles egoue_161
+  - first:
+      213: 3830513438731273735
+    second: clean tiles egoue_162
+  - first:
+      213: 5512861005062854870
+    second: clean tiles egoue_163
+  - first:
+      213: -7516030976253284334
+    second: clean tiles egoue_164
+  - first:
+      213: 6037158755633863675
+    second: clean tiles egoue_165
+  - first:
+      213: 3366033019163168829
+    second: clean tiles egoue_166
+  - first:
+      213: 3935248240923791807
+    second: clean tiles egoue_167
+  - first:
+      213: -1519833233122661698
+    second: clean tiles egoue_168
+  - first:
+      213: 6508915016489411540
+    second: clean tiles egoue_169
+  - first:
+      213: 5094273242549208661
+    second: clean tiles egoue_170
+  - first:
+      213: -2838239007202123112
+    second: clean tiles egoue_171
+  - first:
+      213: 5681821287472389229
+    second: clean tiles egoue_172
+  - first:
+      213: 6337441833752984678
+    second: clean tiles egoue_173
+  - first:
+      213: -2928999646065377473
+    second: clean tiles egoue_174
+  - first:
+      213: 1876124091252827055
+    second: clean tiles egoue_175
+  - first:
+      213: -5333982861941920589
+    second: clean tiles egoue_176
+  - first:
+      213: -4720064431945913708
+    second: clean tiles egoue_177
+  - first:
+      213: -4097693639438429986
+    second: clean tiles egoue_178
+  - first:
+      213: -4590835950548661509
+    second: clean tiles egoue_179
+  - first:
+      213: 8860632084312001437
+    second: clean tiles egoue_180
+  - first:
+      213: -8480650675770774438
+    second: clean tiles egoue_181
+  - first:
+      213: 7781031804158150172
+    second: clean tiles egoue_182
+  - first:
+      213: 2872024408201535823
+    second: clean tiles egoue_183
+  - first:
+      213: 3043361523969996996
+    second: clean tiles egoue_184
+  - first:
+      213: -8639292105181466462
+    second: clean tiles egoue_185
+  - first:
+      213: -7698481379024568856
+    second: clean tiles egoue_186
+  - first:
+      213: -2551602216711457832
+    second: clean tiles egoue_187
+  - first:
+      213: 2792484093420636684
+    second: clean tiles egoue_188
+  - first:
+      213: 465535114932784408
+    second: clean tiles egoue_189
+  - first:
+      213: 5122054839689876730
+    second: clean tiles egoue_190
+  - first:
+      213: -3558269736538745802
+    second: clean tiles egoue_191
+  - first:
+      213: -728575879653634256
+    second: clean tiles egoue_192
+  - first:
+      213: -5614989318249112477
+    second: clean tiles egoue_193
+  - first:
+      213: -982090422104617174
+    second: clean tiles egoue_194
+  - first:
+      213: -7782714609132686762
+    second: clean tiles egoue_195
+  - first:
+      213: -3400534153256664270
+    second: clean tiles egoue_196
+  - first:
+      213: 1536955114386289573
+    second: clean tiles egoue_197
+  - first:
+      213: 9132675424712854923
+    second: clean tiles egoue_198
+  - first:
+      213: -7009858110742443073
+    second: clean tiles egoue_199
+  - first:
+      213: -4465239819248089084
+    second: clean tiles egoue_200
+  - first:
+      213: 6249438693415335883
+    second: clean tiles egoue_201
+  - first:
+      213: 1597505936530668320
+    second: clean tiles egoue_202
+  - first:
+      213: -215014803769263451
+    second: clean tiles egoue_203
+  - first:
+      213: -4928987485735188194
+    second: clean tiles egoue_204
+  - first:
+      213: -6479813544529612785
+    second: clean tiles egoue_205
+  - first:
+      213: -1967235073591569553
+    second: clean tiles egoue_206
+  - first:
+      213: -2006355869983537456
+    second: clean tiles egoue_207
+  - first:
+      213: 3643713255653322452
+    second: clean tiles egoue_208
+  - first:
+      213: 7907413774618522710
+    second: clean tiles egoue_209
+  - first:
+      213: -8232929027286221569
+    second: clean tiles egoue_210
+  - first:
+      213: -5480553772094180403
+    second: clean tiles egoue_211
+  - first:
+      213: 2498679387282805228
+    second: clean tiles egoue_212
+  - first:
+      213: -2620324479876515873
+    second: clean tiles egoue_213
+  - first:
+      213: 2691354995952324995
+    second: clean tiles egoue_214
+  - first:
+      213: 3817269453175508692
+    second: clean tiles egoue_215
+  - first:
+      213: -1475492639701956296
+    second: clean tiles egoue_216
+  - first:
+      213: 3508517646171708937
+    second: clean tiles egoue_217
+  - first:
+      213: -4861433355672080774
+    second: clean tiles egoue_218
+  - first:
+      213: -6334773239825361297
+    second: clean tiles egoue_219
+  - first:
+      213: 963558543728332612
+    second: clean tiles egoue_220
+  - first:
+      213: 8872006828412230596
+    second: clean tiles egoue_221
+  - first:
+      213: -5722793577601838143
+    second: clean tiles egoue_222
+  - first:
+      213: 7249518765313204927
+    second: clean tiles egoue_223
+  - first:
+      213: 5704800092797160951
+    second: clean tiles egoue_224
+  - first:
+      213: -991340662124660205
+    second: clean tiles egoue_225
+  - first:
+      213: 2334511775172139186
+    second: clean tiles egoue_226
+  - first:
+      213: -2503694531546356728
+    second: clean tiles egoue_227
+  - first:
+      213: 6737248889496441841
+    second: clean tiles egoue_228
+  - first:
+      213: -4089521365690626457
+    second: clean tiles egoue_229
+  - first:
+      213: -6588811940152614380
+    second: clean tiles egoue_230
+  - first:
+      213: 2388478627867101587
+    second: clean tiles egoue_231
+  - first:
+      213: -2260356088538683826
+    second: clean tiles egoue_232
+  - first:
+      213: -7643923961487937269
+    second: clean tiles egoue_233
+  - first:
+      213: 3591763816363376344
+    second: clean tiles egoue_234
+  - first:
+      213: 2274609646301908526
+    second: clean tiles egoue_235
+  - first:
+      213: 5919817414185220533
+    second: clean tiles egoue_236
+  - first:
+      213: -6136305923575975680
+    second: clean tiles egoue_237
+  - first:
+      213: -1082345851508115365
+    second: clean tiles egoue_238
+  - first:
+      213: -266391483990890983
+    second: clean tiles egoue_239
+  - first:
+      213: 5209921610776621754
+    second: clean tiles egoue_240
+  - first:
+      213: 4449773360569267102
+    second: clean tiles egoue_241
+  - first:
+      213: -8092510536297807298
+    second: clean tiles egoue_242
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
