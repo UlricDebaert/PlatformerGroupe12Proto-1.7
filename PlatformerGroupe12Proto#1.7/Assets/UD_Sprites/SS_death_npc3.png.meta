@@ -1,0 +1,334 @@
+fileFormatVersion: 2
+guid: f04ea96e03c24ad40b6ef1b597abc05b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3301359207855229494
+    second: SS_death_npc3_0
+  - first:
+      213: 2397458931811410062
+    second: SS_death_npc3_1
+  - first:
+      213: -3327575346294494888
+    second: SS_death_npc3_2
+  - first:
+      213: 7152448530170339942
+    second: SS_death_npc3_3
+  - first:
+      213: 1023382539124349040
+    second: SS_death_npc3_4
+  - first:
+      213: 2648811277033005868
+    second: SS_death_npc3_5
+  - first:
+      213: -5561228786360498070
+    second: SS_death_npc3_6
+  - first:
+      213: -4760980795246878782
+    second: SS_death_npc3_7
+  - first:
+      213: -3170789635252771748
+    second: SS_death_npc3_8
+  - first:
+      213: 2148628120824561406
+    second: SS_death_npc3_9
+  - first:
+      213: -7367382447841178927
+    second: SS_death_npc3_10
+  - first:
+      213: -9033844857903449025
+    second: SS_death_npc3_11
+  - first:
+      213: -2211658059411745921
+    second: SS_death_npc3_12
+  - first:
+      213: 8706279464230396011
+    second: SS_death_npc3_13
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 13
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SS_death_npc3_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 92
+        width: 42
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5576078, y: 0.3533228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5f2d3ba473f22d0800000000000000
+      internalID: -3301359207855229494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_death_npc3_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 92
+        width: 42
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5576078, y: 0.3533228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80e43a323c754120800000000000000
+      internalID: 2397458931811410062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_death_npc3_3
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 92
+        width: 42
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5576078, y: 0.3533228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662611bfa0a924360800000000000000
+      internalID: 7152448530170339942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_death_npc3_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 92
+        width: 42
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5576078, y: 0.3533228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23e99c82d772c420800000000000000
+      internalID: 2648811277033005868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_death_npc3_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 23
+        width: 42
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5576078, y: 0.3533228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54a44550a71ff3d0800000000000000
+      internalID: -3170789635252771748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_death_npc3_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 44
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efeb92854e571dd10800000000000000
+      internalID: 2148628120824561406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_death_npc3_10
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 23
+        width: 42
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5576078, y: 0.3533228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da8aff92bcc1c990800000000000000
+      internalID: -7367382447841178927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_death_npc3_12
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 23
+        width: 42
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5576078, y: 0.3533228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73122c76bc9e41e0800000000000000
+      internalID: -2211658059411745921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_death_npc3_13
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 22
+        width: 42
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5576078, y: 0.3533228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b602bbc7b0be2d870800000000000000
+      internalID: 8706279464230396011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

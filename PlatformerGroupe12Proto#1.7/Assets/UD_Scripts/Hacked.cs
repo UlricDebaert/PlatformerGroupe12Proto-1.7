@@ -5,9 +5,12 @@ using UnityEngine;
 public class Hacked : MonoBehaviour
 {
     private float timeHackLeft;
+    private float disappearTimer;
 
     public bool hacked;
     private bool canExplode;
+    public bool boom;
+    public bool disappear;
 
     public PlayerHacking PH;
     public PlayerScore PS;
@@ -24,9 +27,14 @@ public class Hacked : MonoBehaviour
     [SerializeField]
     private InteractObject otherIA4;
 
+    private Animator anim;
+
     void Start()
     {
         hacked = false;
+        anim = GetComponent<Animator>();
+        boom = false;
+        disappear = false;
     }
 
     // Update is called once per frame
@@ -40,17 +48,29 @@ public class Hacked : MonoBehaviour
         {
             Disappear();
         }
+
+        UpdateAnimation();
     }
 
     void CheckHack()
     {
-        if (PH.timeOfHack < timeHackLeft)
+        if (PH != null)
         {
-            hacked = false;
-            PH.amountOfHack += 1;
-            timeHackLeft = 0f;
-            canExplode = false;
+            if (PH.timeOfHack < timeHackLeft)
+            {
+                hacked = false;
+                PH.amountOfHack += 1;
+                timeHackLeft = 0f;
+                canExplode = false;
+            }
         }
+    }
+
+    void UpdateAnimation()
+    {
+        anim.SetBool("boom", boom);
+        anim.SetBool("hacked", hacked);
+        anim.SetBool("disappear", disappear);
     }
 
     void Timer()
@@ -63,7 +83,7 @@ public class Hacked : MonoBehaviour
 
     public void Hacking()
     {
-        if (hacked == false)
+        if (hacked == false && PH != null)
         {
             hacked = true;
             timeHackLeft = 0;
@@ -78,22 +98,26 @@ public class Hacked : MonoBehaviour
 
     public void CheckExplosion()
     {
-        if (PH.boom==true && hacked)
+        if (PH != null)
         {
-            Boom();
-        }
+            if (PH.boom == true && hacked)
+            {
+                Boom();
+            }
 
+        }
     }
 
     public void Boom()
     {
         Debug.Log("Boom");
-        if (hacked)
+        if (hacked && !boom)
         {
+            boom = true;
             PH.amountOfHack += 1;
             PS.score += 1;
             ownIA.dead = true; //Repérage par les autres si disparu
-            gameObject.SetActive(false);
+            //gameObject.SetActive(false);
         }
     }
 
@@ -101,7 +125,21 @@ public class Hacked : MonoBehaviour
     {
         if(otherIA1.dead || otherIA2.dead || otherIA3.dead || otherIA4.dead)
         {
-            gameObject.SetActive(false);
+            disappear = true;
         }
+
+        if (disappear)
+        {
+            disappearTimer += Time.deltaTime;
+            if (disappearTimer > 1.0f)
+            {
+                gameObject.SetActive(false);
+
+            }
+        } else
+        {
+            disappearTimer = 0f;
+        }
+
     }
 }

@@ -6,6 +6,7 @@ public class InteractObject : MonoBehaviour
 {
     public PlayerScore PS;
     public PlayerAttack PA;
+    public Hacked Ha;
 
     public bool dead = false;
     private bool nearPlayer = false;
@@ -25,13 +26,14 @@ public class InteractObject : MonoBehaviour
 
     public void FixedUpdate()
     {
-        if(PA != null)
+        if(PA != null && Ha != null)
         {
-            if (nearPlayer && PA.isAttacking)
+            if (nearPlayer && PA.isAttacking && Ha.boom == false)
             {
                 PS.score += 1;
                 dead = true;
-                gameObject.SetActive(false);
+                //gameObject.SetActive(false);
+                Ha.boom = true;
             }
         }
 
