@@ -113,6 +113,7 @@ public class Hacked : MonoBehaviour
         Debug.Log("Boom");
         if (hacked && !boom)
         {
+            FindObjectOfType<AudioManager>().Play("TêteExplosée");
             boom = true;
             PH.amountOfHack += 1;
             PS.score += 1;

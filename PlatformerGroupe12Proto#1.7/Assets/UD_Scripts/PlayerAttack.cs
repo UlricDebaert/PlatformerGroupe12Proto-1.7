@@ -53,6 +53,7 @@ public class PlayerAttack : MonoBehaviour
                 gotInput = false;
                 isAttacking = true;
                 anim.SetBool("isAttacking", isAttacking);
+                FindObjectOfType<AudioManager>().Play("KickSound");
             }
         }
     }
