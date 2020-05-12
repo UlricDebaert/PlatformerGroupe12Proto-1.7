@@ -137,6 +137,8 @@ public class Hacked : MonoBehaviour
                 gameObject.SetActive(false);
 
             }
+            FindObjectOfType<AudioManager>().Play("FemaleScream");
+            
         } else
         {
             disappearTimer = 0f;
