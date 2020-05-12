@@ -28,8 +28,10 @@ public class PlayerController : MonoBehaviour
     public float obstacleCheckDistance=-0.5f;
     public float accelerationTime = 0.5f;
     public float deccelerationTime = 0.5f;
+    public float wallSlideAccTime = 0.5f;
     private float timeSinceAccelerated;
     private float timeSinceDeccelerated;
+    private float timeSinceWallSlideAcc;
     private float freezeWallJumpTimer;
     public float freezeWallJumpTimerSet;
 
@@ -81,6 +83,7 @@ public class PlayerController : MonoBehaviour
 
     public AnimationCurve acceleration = AnimationCurve.EaseInOut(0, 0, 0.75f, 1);
     public AnimationCurve decceleration = AnimationCurve.EaseInOut(0, 1, 2, 0);
+    public AnimationCurve wallSlideAcc = AnimationCurve.EaseInOut(0, 0.1f, 1f, 1.25f);
 
     void Start()
     {
@@ -211,6 +214,15 @@ public class PlayerController : MonoBehaviour
             timeSinceDeccelerated = 0;
         }
 
+        if (isWallSliding)
+        {
+            timeSinceWallSlideAcc += Time.deltaTime;
+        }
+        else
+        {
+            timeSinceWallSlideAcc = 0;
+        }
+
         float accelerationMultiplier = 1;
         if (accelerationTime > 0)
             accelerationMultiplier = acceleration.Evaluate(timeSinceAccelerated / accelerationTime);
@@ -218,6 +230,10 @@ public class PlayerController : MonoBehaviour
         float deccelerationMultiplier = 1;
         if (deccelerationTime > 0)
             deccelerationMultiplier = decceleration.Evaluate(timeSinceDeccelerated / deccelerationTime);
+
+        float wallSlideAccMultiplier = 1;
+        if (wallSlideAccTime > 0.0f)
+            wallSlideAccMultiplier = wallSlideAcc.Evaluate(timeSinceWallSlideAcc / wallSlideAccTime);
 
         if (!isGrounded && !isWallSliding && movementInputDirection == 0)
         {
@@ -244,7 +260,7 @@ public class PlayerController : MonoBehaviour
         {
             if(rb.velocity.y < wallSlideSpeed)
             {
-                rb.velocity = new Vector2(rb.velocity.x, -wallSlideSpeed);
+                rb.velocity = new Vector2(rb.velocity.x, -wallSlideSpeed * wallSlideAccMultiplier);
             }
         }
 

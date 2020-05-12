@@ -123,7 +123,7 @@ public class Hacked : MonoBehaviour
 
     private void Disappear()
     {
-        if(otherIA1.dead || otherIA2.dead || otherIA3.dead || otherIA4.dead)
+        if((otherIA1.dead || otherIA2.dead || otherIA3.dead || otherIA4.dead) && !ownIA.dead)
         {
             disappear = true;
         }
