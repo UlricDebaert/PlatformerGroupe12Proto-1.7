@@ -100,6 +100,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hacked: 0
   boom: 0
+  disappear: 0
+  male: 1
   PH: {fileID: 0}
   PS: {fileID: 0}
   ownIA: {fileID: 12845255294063921}

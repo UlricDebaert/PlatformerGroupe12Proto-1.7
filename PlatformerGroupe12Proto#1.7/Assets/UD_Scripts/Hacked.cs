@@ -11,6 +11,9 @@ public class Hacked : MonoBehaviour
     private bool canExplode;
     public bool boom;
     public bool disappear;
+    private bool canScream;
+    [SerializeField]
+    private bool male;
 
     public PlayerHacking PH;
     public PlayerScore PS;
@@ -35,6 +38,7 @@ public class Hacked : MonoBehaviour
         anim = GetComponent<Animator>();
         boom = false;
         disappear = false;
+        canScream = true;
     }
 
     // Update is called once per frame
@@ -137,7 +141,19 @@ public class Hacked : MonoBehaviour
                 gameObject.SetActive(false);
 
             }
-            FindObjectOfType<AudioManager>().Play("FemaleScream");
+
+            if (canScream && male)
+            {
+                FindObjectOfType<AudioManager>().Play("MaleScream");
+                canScream = false;
+            }
+
+            if (canScream && !male)
+            {
+                FindObjectOfType<AudioManager>().Play("FemaleScream");
+                canScream = false;
+            }
+
             
         } else
         {

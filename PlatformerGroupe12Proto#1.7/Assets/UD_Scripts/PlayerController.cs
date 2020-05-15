@@ -155,7 +155,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetButtonDown("Jump"))
         {
-            if (isTouchingWall)/* && movementInputDirection!=0 && movementInputDirection != facingDirection)*/
+            if (isTouchingWall && !isGrounded)/* && movementInputDirection!=0 && movementInputDirection != facingDirection)*/
             {
                 WallJump();
             }
