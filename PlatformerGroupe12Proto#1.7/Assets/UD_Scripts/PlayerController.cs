@@ -348,7 +348,8 @@ public class PlayerController : MonoBehaviour
     {
         if (canNormalJump) // && !(isTouchingWall&&facingDirection==movementInputDirection) && !(isTouchingWall&&movementInputDirection==0)) //la partie !(isTouchingWall&&movementInputDirection==0) vient empêcher le joueur de spammer le saut vertical quand sur mur mais rend plus difficil le wall jump
         {
-            if(isOnMovingPlatform && movingPlatformGoesUp)
+            FindObjectOfType<AudioManager>().Play("Jump");
+            if (isOnMovingPlatform && movingPlatformGoesUp)
             {
                 print("platform jump");
                 rb.velocity = new Vector2(rb.velocity.x, jumpForce + 12);
@@ -376,6 +377,7 @@ public class PlayerController : MonoBehaviour
         Debug.Log("WallJump");
         if (canWallJump)
         {
+            FindObjectOfType<AudioManager>().Play("Jump");
             movementInputDirection = -facingDirection;
             startFreezeMoveInput = true;
             freezeWallJumpTimer = freezeWallJumpTimerSet;
