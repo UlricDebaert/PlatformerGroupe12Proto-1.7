@@ -6,6 +6,16 @@ public class Timer : MonoBehaviour
 {
     [SerializeField]
     private float totalTime;
+    [SerializeField]
+    private float state4Time;
+    [SerializeField]
+    private float state3Time;
+    [SerializeField]
+    private float state2Time;
+    [SerializeField]
+    private float state1Time;
+    [SerializeField]
+    private float stateEmptyTime;
     private float remainingTime;
 
     private bool initState;
@@ -27,6 +37,12 @@ public class Timer : MonoBehaviour
         state2 = false;
         state1 = false;
         emptyState = false;
+
+        /*state4Time = totalTime * (4 / 5);
+        state3Time = totalTime * (3 / 5);
+        state2Time = totalTime * (2 / 5);
+        state1Time = totalTime * (1 / 5);
+        stateEmptyTime = 0.0f;*/
     }
 
     void Update()
@@ -48,27 +64,27 @@ public class Timer : MonoBehaviour
             initState = true;
         }
 
-        if (totalTime/ (4 / 5) > remainingTime)
+        if (state4Time > remainingTime)
         {
             state4 = true;
         }
 
-        if (totalTime / (3 / 5) > remainingTime)
+        if (state3Time > remainingTime)
         {
             state3 = true;
         }
 
-        if (totalTime / (2 / 5) > remainingTime)
+        if (state2Time > remainingTime)
         {
             state2 = true;
         }
 
-        if (totalTime / (1 / 5) > remainingTime)
+        if (state1Time > remainingTime)
         {
             state1 = true;
         }
 
-        if (0.0f > remainingTime)
+        if (stateEmptyTime > remainingTime)
         {
             emptyState = true;
         }
