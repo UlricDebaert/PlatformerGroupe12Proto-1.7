@@ -20,6 +20,8 @@ public class PlayerAttack : MonoBehaviour
 
     [SerializeField]
     private PlayerController PC;
+    [SerializeField]
+    private SimpleCameraShakeInCinemachine CS;
 
     private void Start()
     {
@@ -40,6 +42,7 @@ public class PlayerAttack : MonoBehaviour
             if (combatEnabled)
             {
                 gotInput = true;
+                //CS.StartShake();
             }
         }
     }

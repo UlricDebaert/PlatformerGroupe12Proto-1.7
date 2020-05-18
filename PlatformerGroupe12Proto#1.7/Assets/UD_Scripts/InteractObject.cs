@@ -7,6 +7,7 @@ public class InteractObject : MonoBehaviour
     public PlayerScore PS;
     public PlayerAttack PA;
     public Hacked Ha;
+    public SimpleCameraShakeInCinemachine CS;
 
     public bool dead = false;
     private bool nearPlayer = false;
@@ -36,6 +37,7 @@ public class InteractObject : MonoBehaviour
                 Ha.boom = true;
 
                 FindObjectOfType<AudioManager>().Play("TêteExplosée");
+                CS.StartShake();
             }
         }
 

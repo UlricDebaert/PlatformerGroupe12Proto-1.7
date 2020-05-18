@@ -17,6 +17,7 @@ public class Hacked : MonoBehaviour
 
     public PlayerHacking PH;
     public PlayerScore PS;
+    public SimpleCameraShakeInCinemachine CS;
 
     [SerializeField]
     private InteractObject ownIA;
@@ -118,6 +119,7 @@ public class Hacked : MonoBehaviour
         if (hacked && !boom)
         {
             FindObjectOfType<AudioManager>().Play("TêteExplosée");
+            CS.StartShake();
             boom = true;
             PH.amountOfHack += 1;
             PS.score += 1;
