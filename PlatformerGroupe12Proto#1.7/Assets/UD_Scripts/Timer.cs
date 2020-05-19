@@ -16,7 +16,7 @@ public class Timer : MonoBehaviour
     private float state1Time;
     [SerializeField]
     private float stateEmptyTime;
-    private float remainingTime;
+    public float remainingTime;
 
     private bool initState;
     private bool state4;
@@ -50,6 +50,7 @@ public class Timer : MonoBehaviour
         LoseTime();
         TimeState();
         UpdateAnimation();
+        PlayerPrefs.SetFloat("RemainingTime", remainingTime);
     }
 
     void LoseTime()

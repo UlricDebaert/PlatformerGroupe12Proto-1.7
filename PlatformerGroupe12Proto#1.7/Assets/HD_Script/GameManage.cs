@@ -24,6 +24,7 @@ public class GameManage : MonoBehaviour
     }
     void Restart()
     {
+        PlayerPrefs.GetFloat("PlayerScore", 0f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 

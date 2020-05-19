@@ -7,6 +7,8 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
+        PlayerPrefs.SetFloat("PlayerScore", 0f);
+        PlayerPrefs.SetFloat("RemainingTime", 360f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
     
