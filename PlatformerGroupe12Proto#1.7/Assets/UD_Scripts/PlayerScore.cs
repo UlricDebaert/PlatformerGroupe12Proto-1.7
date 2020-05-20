@@ -29,6 +29,6 @@ public class PlayerScore : MonoBehaviour
 
     void PointCalculate()
     {
-        totalScore = score * Ti.remainingTime;
+        totalScore = score * (Ti.remainingTime/2);
     }
 }

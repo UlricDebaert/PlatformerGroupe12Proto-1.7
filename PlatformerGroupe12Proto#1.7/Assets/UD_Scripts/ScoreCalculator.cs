@@ -9,7 +9,7 @@ public class ScoreCalculator : MonoBehaviour
     [SerializeField]
     private float score;
     [SerializeField]
-    private float totalScore;
+    public float totalScore;
 
     void Start()
     {

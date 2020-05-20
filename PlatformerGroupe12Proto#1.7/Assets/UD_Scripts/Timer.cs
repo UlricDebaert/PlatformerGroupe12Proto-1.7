@@ -7,6 +7,8 @@ public class Timer : MonoBehaviour
     [SerializeField]
     private float totalTime;
     [SerializeField]
+    private float state5Time;    
+    [SerializeField]
     private float state4Time;
     [SerializeField]
     private float state3Time;
@@ -19,6 +21,7 @@ public class Timer : MonoBehaviour
     public float remainingTime;
 
     private bool initState;
+    private bool state5;
     private bool state4;
     private bool state3;
     private bool state2;
@@ -32,6 +35,7 @@ public class Timer : MonoBehaviour
         anim = GetComponent<Animator>();
         remainingTime = totalTime;
         initState = false;
+        state5 = false;
         state4 = false;
         state3 = false;
         state2 = false;
@@ -65,6 +69,11 @@ public class Timer : MonoBehaviour
             initState = true;
         }
 
+        if (state5Time > remainingTime)
+        {
+            state5 = true;
+        }        
+        
         if (state4Time > remainingTime)
         {
             state4 = true;
@@ -94,6 +103,7 @@ public class Timer : MonoBehaviour
     void UpdateAnimation()
     {
         anim.SetBool("initState", initState);
+        anim.SetBool("state5", state5);
         anim.SetBool("state4", state4);
         anim.SetBool("state3", state3);
         anim.SetBool("state2", state2);
