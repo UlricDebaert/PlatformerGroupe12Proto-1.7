@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Timer : MonoBehaviour
 {
+    public GameOverScript GOS;
+    public TipsText TT;
+
     [SerializeField]
     private float totalTime;
     [SerializeField]
@@ -97,6 +100,16 @@ public class Timer : MonoBehaviour
         if (stateEmptyTime > remainingTime)
         {
             emptyState = true;
+        }
+
+        if(-1 >= remainingTime)
+        {
+            if((GOS != null) && (TT != null))
+            {
+                TT.noMoreTime = true;
+                remainingTime = totalTime;
+                GOS.Lose();
+            }
         }
     }
 

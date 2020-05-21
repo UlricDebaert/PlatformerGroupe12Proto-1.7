@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class FinalScoreShower : MonoBehaviour
 {
-    private int scoreToShow;
+    public int scoreToShow;
 
     [SerializeField]
     ScoreCalculator SC;
@@ -17,7 +17,10 @@ public class FinalScoreShower : MonoBehaviour
 
     void Update()
     {
-        int scoreToShow = (int)SC.totalScore;
-        scoreText.text = scoreToShow.ToString();
+        if(SC != null)
+        {
+            int scoreToShow = (int)SC.totalScore;
+            scoreText.text = scoreToShow.ToString();
+        }
     }
 }
