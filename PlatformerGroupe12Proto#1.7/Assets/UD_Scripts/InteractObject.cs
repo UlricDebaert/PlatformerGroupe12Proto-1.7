@@ -35,7 +35,6 @@ public class InteractObject : MonoBehaviour
                 dead = true;
                 //gameObject.SetActive(false);
                 Ha.boom = true;
-
                 FindObjectOfType<AudioManager>().Play("TêteExplosée");
                 CS.StartShake();
             }
