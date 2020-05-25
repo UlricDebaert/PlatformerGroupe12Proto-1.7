@@ -8,6 +8,8 @@ public class InteractObject : MonoBehaviour
     public PlayerAttack PA;
     public Hacked Ha;
     public SimpleCameraShakeInCinemachine CS;
+    public BloodEffect BE;
+    public HackedEffect HE;
 
     public bool dead = false;
     private bool nearPlayer = false;
@@ -27,14 +29,16 @@ public class InteractObject : MonoBehaviour
 
     public void FixedUpdate()
     {
-        if(PA != null && Ha != null)
+        if(PA != null && Ha != null && BE != null)
         {
             if (nearPlayer && PA.isAttacking && Ha.boom == false)
             {
+                HE.hacked = false;
                 PS.score += 1;
                 dead = true;
                 //gameObject.SetActive(false);
                 Ha.boom = true;
+                BE.RedEffect();
                 FindObjectOfType<AudioManager>().Play("TêteExplosée");
                 CS.StartShake();
             }

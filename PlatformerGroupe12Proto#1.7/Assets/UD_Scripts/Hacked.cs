@@ -18,6 +18,8 @@ public class Hacked : MonoBehaviour
     public PlayerHacking PH;
     public PlayerScore PS;
     public SimpleCameraShakeInCinemachine CS;
+    public BloodEffect BE;
+    public HackedEffect HE;
 
     [SerializeField]
     private InteractObject ownIA;
@@ -55,14 +57,16 @@ public class Hacked : MonoBehaviour
         }
 
         UpdateAnimation();
+        CheckHackedEffect();
     }
 
     void CheckHack()
     {
-        if (PH != null)
+        if (PH != null && HE != null)
         {
             if (PH.timeOfHack < timeHackLeft)
             {
+                HE.hacked = false;
                 hacked = false;
                 PH.amountOfHack += 1;
                 timeHackLeft = 0f;
@@ -78,6 +82,14 @@ public class Hacked : MonoBehaviour
         anim.SetBool("disappear", disappear);
     }
 
+    void CheckHackedEffect()
+    {
+        if (hacked)
+        {
+            HE.hacked = true;
+        }
+    }
+
     void Timer()
     {
         if (hacked == true)
@@ -88,8 +100,9 @@ public class Hacked : MonoBehaviour
 
     public void Hacking()
     {
-        if (hacked == false && PH != null)
+        if (hacked == false && PH != null && HE != null)
         {
+            HE.hacked = true;
             hacked = true;
             timeHackLeft = 0;
             PH.amountOfHack -= 1;
@@ -103,7 +116,7 @@ public class Hacked : MonoBehaviour
 
     public void CheckExplosion()
     {
-        if (PH != null)
+        if (PH != null && CS != null && BE != null && HE != null)
         {
             if (PH.boom == true && hacked)
             {
@@ -118,6 +131,10 @@ public class Hacked : MonoBehaviour
         Debug.Log("Boom");
         if (hacked && !boom)
         {
+            hacked = false;
+            HE.hacked = false;
+            BE.RedEffect();
+            FindObjectOfType<AudioManager>().Play("HackBoom");
             FindObjectOfType<AudioManager>().Play("TêteExplosée");
             CS.StartShake();
             boom = true;
