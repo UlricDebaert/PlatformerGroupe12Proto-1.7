@@ -2,12 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
+
 
 public class GameOverScript : MonoBehaviour
 {
     public static bool gameIsOver = false;
 
     public GameObject GameOverScreen;
+    public GameObject Player;
+    public GameObject DeathSound;
 
     private void Update()
     {
@@ -19,6 +23,8 @@ public class GameOverScript : MonoBehaviour
 
     public void Lose()
     {
+        Player.SetActive(false);
+        DeathSound.SetActive(true);
         GameOverScreen.SetActive(true);
         Time.timeScale = 0f;
         gameIsOver = true;
