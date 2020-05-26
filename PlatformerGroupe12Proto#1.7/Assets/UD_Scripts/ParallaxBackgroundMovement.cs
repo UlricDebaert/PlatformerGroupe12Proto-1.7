@@ -1,42 +1,31 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ParallaxBackgroundMovement : MonoBehaviour
 {
     [SerializeField]
-    private Transform mainCameraPosition;
+    private float backgroundXMoveSpeed = 0f, backgroundYMoveSpeed = 0f;
 
-    [SerializeField]
-    private float backgroundMoveSpeed;
     private float directionX;
+    private float directionY;
 
-    [SerializeField]
-    private float offsetByX = 13f;
+    float playerStartX, playerStartY;
 
-    public PlayerController pC;
-
-    void Update()
+    private void Start()
     {
-        if (pC.isMoving == true)
-        {
-            Moving();
-        }
+        playerStartX = Camera.main.transform.position.x;
+        playerStartY = Camera.main.transform.position.y;
+    }
+
+    void LateUpdate()
+    {
+        Moving();
     }
 
     void Moving()
     {
-        directionX = Input.GetAxis("Horizontal") * backgroundMoveSpeed * Time.deltaTime;
+        directionX = Camera.main.transform.position.x;
+        directionY = Camera.main.transform.position.y;
 
-        transform.position = new Vector2(transform.position.x + directionX, transform.position.y);
-
-        if (transform.position.x - mainCameraPosition.position.x < -offsetByX)
-        {
-            transform.position = new Vector2(mainCameraPosition.position.x + offsetByX, transform.position.y);
-        }
-        else if (transform.position.x - mainCameraPosition.position.x > offsetByX)
-        {
-            transform.position = new Vector2(mainCameraPosition.position.x - offsetByX, transform.position.y);
-        }
+        transform.position = new Vector2(playerStartX + backgroundXMoveSpeed * (directionX - playerStartX), playerStartY + backgroundYMoveSpeed * (directionY - playerStartY));
     }
 }

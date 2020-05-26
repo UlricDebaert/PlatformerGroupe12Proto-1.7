@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -7,25 +8,25 @@ public class PlayerController : MonoBehaviour
     private float movementInputDirection;
     public float movementSpeed = 10f;
     public float jumpForce = 16.0f;
-    public float groundCheckRadius=0.4f;
-    public float movementForceInAir=50f;
+    public float groundCheckRadius = 0.4f;
+    public float movementForceInAir = 50f;
     public float airDragMultiplier = 0.95f;
     public float variableJumpHeightMultiplier = 0.4f;
     private float jumpTimer;
     public float jumpTimerSet = 0.15f;
-    public float wallCheckDistance=-0.5f;
-    public float wallSlideSpeed=4;
-    public float wallHopForce=10f;
-    public float wallJumpForce=35f;
+    public float wallCheckDistance = -0.5f;
+    public float wallSlideSpeed = 4;
+    public float wallHopForce = 10f;
+    public float wallJumpForce = 35f;
     private float turnTimer = 0.15f;
     public float turnTimerSet = 0.05f;
     private float wallJumpTimer;
     public float wallJumpTimerSet = 0.5f;
     public float fallingGravity = 20f;
     public float fastFallingGravity = 30f;
-    public float jumpFall=500f;
-    public float obstacleCheckHeight=1.2f;
-    public float obstacleCheckDistance=-0.5f;
+    public float jumpFall = 500f;
+    public float obstacleCheckHeight = 1.2f;
+    public float obstacleCheckDistance = -0.5f;
     public float accelerationTime = 0.5f;
     public float deccelerationTime = 0.5f;
     public float wallSlideAccTime = 0.5f;
@@ -36,8 +37,8 @@ public class PlayerController : MonoBehaviour
     public float freezeWallJumpTimerSet;
 
     private int facingDirection = -1;
-   // public int amontOfJumps = 2;
-   //private int amontOfJumpsLeft=2;
+    // public int amontOfJumps = 2;
+    //private int amontOfJumpsLeft=2;
     private int lastWallJumpDirection;
 
     private bool isFacingRight = false;
@@ -52,7 +53,7 @@ public class PlayerController : MonoBehaviour
     private bool isWallSliding;
     private bool hasWallJumped;
     public bool isJumping;
-    private bool falled=false;
+    private bool falled = false;
     private bool fastFall = false;
     public bool isMoving = false;
     public bool isTouchingObstacle;
@@ -71,7 +72,7 @@ public class PlayerController : MonoBehaviour
 
     public Vector2 wallHopDirection;
     public Vector2 wallJumpDirection;
-    
+
     private Rigidbody2D rb;
     private Animator anim;
     public Transform groundCheck;
