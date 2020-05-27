@@ -22,6 +22,8 @@ public class PlayerAttack : MonoBehaviour
     private PlayerController PC;
     [SerializeField]
     private SimpleCameraShakeInCinemachine CS;
+    [SerializeField]
+    private PauseMenu PM;
 
     private void Start()
     {
@@ -31,13 +33,16 @@ public class PlayerAttack : MonoBehaviour
 
     private void Update()
     {
-        CheckAttackInput();
-        CheckAttacks();
+        if (PM.pause == false)
+        {
+            CheckAttackInput();
+            CheckAttacks();
+        }
     }
 
     private void CheckAttackInput()
     {
-        if (Input.GetKeyDown(KeyCode.C) && PC.isGrounded && !PC.isTouchingObstacle && !PC.isTouchingWall)
+        if ((Input.GetKeyDown(KeyCode.C) || Input.GetButtonDown("Fire1")) && PC.isGrounded && !PC.isTouchingObstacle && !PC.isTouchingWall)
         {
             if (combatEnabled)
             {

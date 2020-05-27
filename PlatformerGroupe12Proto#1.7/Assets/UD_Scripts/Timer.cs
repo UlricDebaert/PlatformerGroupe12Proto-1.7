@@ -31,6 +31,8 @@ public class Timer : MonoBehaviour
     private bool state1;
     private bool emptyState;
 
+    public bool losingTime;
+
     private Animator anim;
 
     void Start()
@@ -58,11 +60,15 @@ public class Timer : MonoBehaviour
         TimeState();
         UpdateAnimation();
         PlayerPrefs.SetFloat("RemainingTime", remainingTime);
+        //Audio();
     }
 
     void LoseTime()
     {
-        remainingTime -= Time.deltaTime;
+        if (losingTime)
+        {
+            remainingTime -= Time.deltaTime;
+        }
     }
 
     void TimeState()
@@ -102,7 +108,7 @@ public class Timer : MonoBehaviour
             emptyState = true;
         }
 
-        if(-1 >= remainingTime)
+        if(-4 >= remainingTime)
         {
             if((GOS != null) && (TT != null))
             {
@@ -122,5 +128,14 @@ public class Timer : MonoBehaviour
         anim.SetBool("state2", state2);
         anim.SetBool("state1", state1);
         anim.SetBool("emptyState", emptyState);
+        anim.SetBool("losingTime", losingTime);
     }
+
+    /*private void Audio()
+    {
+        if (0.0f >= remainingTime)
+        {
+            FindObjectOfType<AudioManager>().Play("EndTime");
+        }
+    }*/
 }

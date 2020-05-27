@@ -86,6 +86,9 @@ public class PlayerController : MonoBehaviour
     public AnimationCurve decceleration = AnimationCurve.EaseInOut(0, 1, 2, 0);
     public AnimationCurve wallSlideAcc = AnimationCurve.EaseInOut(0, 0.1f, 1f, 1.25f);
 
+    [SerializeField]
+    PauseMenu PM;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -97,20 +100,26 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        CheckInput();
-        CheckMovementDirection();
-        UpdateAnimation();
-        CheckIfCanJump();
-        CheckIfWallSliding();
-        CheckJump();
-        FreezeWallJump();
+        if (PM.pause == false)
+        {
+            CheckInput();
+            CheckMovementDirection();
+            UpdateAnimation();
+            CheckIfCanJump();
+            CheckIfWallSliding();
+            CheckJump();
+            FreezeWallJump();
+        }
     }
 
     private void FixedUpdate()
     {
-        ApplyMovement();
-        CheckSurroundings();
-        CheckWall();
+        if (PM.pause == false)
+        {
+            ApplyMovement();
+            CheckSurroundings();
+            CheckWall();
+        }
     }
 
     private void CheckIfWallSliding()

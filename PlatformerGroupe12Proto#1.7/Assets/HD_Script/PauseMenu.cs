@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     public static bool GameIsPaused = false;
+    public bool pause;
     public GameObject pauseMenuUI;
-    // Update is called once per frame
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -15,7 +16,7 @@ public class PauseMenu : MonoBehaviour
             if (GameIsPaused)
             { 
          
-                Resume(); 
+                Resume();
             }
                 
             else
@@ -30,12 +31,14 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
+        pause = false;
     }
     void Pause()
     {
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
+        pause = true;
     } 
 
     public void LoadMenu() 

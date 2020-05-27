@@ -14,11 +14,17 @@ public class PlayerHacking : MonoBehaviour
     GameObject currentInteractObject = null;
     GameObject civilian;
 
+    [SerializeField]
+    PauseMenu PM;
+
     void Update()
     {
-        PlantHack();
-        CheckNumberOfHack();
-        Explode();
+        if(PM.pause == false)
+        {
+            PlantHack();
+            CheckNumberOfHack();
+            Explode();
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -42,7 +48,7 @@ public class PlayerHacking : MonoBehaviour
 
     void PlantHack()
     {
-        if (Input.GetKeyDown(KeyCode.W) && currentInteractObject && canHack)
+        if ((Input.GetKeyDown(KeyCode.W) || Input.GetButtonDown("Fire2")) && currentInteractObject && canHack)
         {
             currentInteractObject.SendMessage("Hacking");
         }
@@ -51,11 +57,11 @@ public class PlayerHacking : MonoBehaviour
     void Explode()
     {
         civilian = GameObject.FindGameObjectWithTag("InteractObject");
-        if (Input.GetKey(KeyCode.X))
+        if (Input.GetKey(KeyCode.X) || Input.GetButtonDown("Fire3"))
         {
             boom = true;
         }
-        if (Input.GetKeyUp(KeyCode.X))
+        if (Input.GetKeyUp(KeyCode.X) || Input.GetButtonUp("Fire3"))
         {
             boom = false;
         }
