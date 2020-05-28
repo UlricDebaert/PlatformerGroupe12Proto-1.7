@@ -1,0 +1,505 @@
+fileFormatVersion: 2
+guid: 5b2bb3d6b1aa61342bfec8270caa1448
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3530662115474418015
+    second: "tile map corrig\xE9e_0"
+  - first:
+      213: -4548242167803440183
+    second: "tile map corrig\xE9e_1"
+  - first:
+      213: -4436464672394350801
+    second: "tile map corrig\xE9e_2"
+  - first:
+      213: 1135777329890731198
+    second: "tile map corrig\xE9e_3"
+  - first:
+      213: 728503478557491339
+    second: "tile map corrig\xE9e_4"
+  - first:
+      213: 4367527475597795785
+    second: "tile map corrig\xE9e_5"
+  - first:
+      213: 3874095196802697710
+    second: "tile map corrig\xE9e_6"
+  - first:
+      213: 6714154353563844588
+    second: "tile map corrig\xE9e_7"
+  - first:
+      213: 7296331646634295978
+    second: "tile map corrig\xE9e_8"
+  - first:
+      213: -8948409219546535051
+    second: "tile map corrig\xE9e_9"
+  - first:
+      213: -7863049232733692347
+    second: "tile map corrig\xE9e_10"
+  - first:
+      213: 2212496767684392702
+    second: "tile map corrig\xE9e_11"
+  - first:
+      213: -3907048669170806245
+    second: "tile map corrig\xE9e_12"
+  - first:
+      213: 4957810509688049709
+    second: "tile map corrig\xE9e_13"
+  - first:
+      213: -5933040008759273530
+    second: "tile map corrig\xE9e_14"
+  - first:
+      213: 4129301005451428722
+    second: "tile map corrig\xE9e_15"
+  - first:
+      213: -5803111794180215039
+    second: "tile map corrig\xE9e_16"
+  - first:
+      213: -5844151317277859571
+    second: "tile map corrig\xE9e_17"
+  - first:
+      213: -1360646027179919396
+    second: "tile map corrig\xE9e_18"
+  - first:
+      213: -8264650088591503088
+    second: "tile map corrig\xE9e_19"
+  - first:
+      213: 3347929866110154427
+    second: "tile map corrig\xE9e_20"
+  - first:
+      213: 4303635936176367499
+    second: "tile map corrig\xE9e_21"
+  - first:
+      213: -520991074700593172
+    second: "tile map corrig\xE9e_22"
+  - first:
+      213: 994540258430855658
+    second: "tile map corrig\xE9e_23"
+  - first:
+      213: -4601002574572206929
+    second: "tile map corrig\xE9e_24"
+  - first:
+      213: 6157599106473434523
+    second: "tile map corrig\xE9e_25"
+  - first:
+      213: -7263098098272916886
+    second: "tile map corrig\xE9e_26"
+  - first:
+      213: 606320500497640813
+    second: "tile map corrig\xE9e_27"
+  - first:
+      213: -2816225869429302642
+    second: "tile map corrig\xE9e_28"
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "tile map corrig\xE9e_0"
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5928cedc7e6ff030800000000000000
+      internalID: 3530662115474418015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tile map corrig\xE9e_1"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c39f9398d561e0c0800000000000000
+      internalID: -4548242167803440183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tile map corrig\xE9e_2"
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f6d57c2e28e62c0800000000000000
+      internalID: -4436464672394350801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tile map corrig\xE9e_3"
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb42414c67713cf00800000000000000
+      internalID: 1135777329890731198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tile map corrig\xE9e_4"
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b804e01dd0a2c1a00800000000000000
+      internalID: 728503478557491339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tile map corrig\xE9e_5"
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1e3c159139c9c30800000000000000
+      internalID: 4367527475597795785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tile map corrig\xE9e_6"
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9c87f3e0d83c530800000000000000
+      internalID: 3874095196802697710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tile map corrig\xE9e_7"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefb05bbfc77d2d50800000000000000
+      internalID: 6714154353563844588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tile map corrig\xE9e_8"
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2041999f6c14560800000000000000
+      internalID: 7296331646634295978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tile map corrig\xE9e_9"
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b291cb93dd0d380800000000000000
+      internalID: -8948409219546535051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tile map corrig\xE9e_10"
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e108f0266d0e290800000000000000
+      internalID: -7863049232733692347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tile map corrig\xE9e_11"
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef63780861e54be10800000000000000
+      internalID: 2212496767684392702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tile map corrig\xE9e_12"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 12
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1259e19fef57c9c0800000000000000
+      internalID: -3907048669170806245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tile map corrig\xE9e_13"
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 12
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2097a5146eadc440800000000000000
+      internalID: 4957810509688049709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tile map corrig\xE9e_14"
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 12
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c719bfeb8b99ada0800000000000000
+      internalID: -5933040008759273530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1093 @@
+fileFormatVersion: 2
+guid: c1bdd25f5e8862f4299d7fa7f4b9ff6b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8679111816138185611
+    second: tile map boite de nuit_0
+  - first:
+      213: 2390757156944747971
+    second: tile map boite de nuit_1
+  - first:
+      213: 7501272538685670862
+    second: tile map boite de nuit_2
+  - first:
+      213: 6267505316041458256
+    second: tile map boite de nuit_3
+  - first:
+      213: 3214897353458291987
+    second: tile map boite de nuit_4
+  - first:
+      213: 715564989604682660
+    second: tile map boite de nuit_5
+  - first:
+      213: -3118892128878764853
+    second: tile map boite de nuit_6
+  - first:
+      213: -2440434393415862320
+    second: tile map boite de nuit_7
+  - first:
+      213: -7308213067474797031
+    second: tile map boite de nuit_8
+  - first:
+      213: -2461417840127142439
+    second: tile map boite de nuit_9
+  - first:
+      213: -5358876785244408529
+    second: tile map boite de nuit_10
+  - first:
+      213: -6202413885088480278
+    second: tile map boite de nuit_11
+  - first:
+      213: 8086037693272757262
+    second: tile map boite de nuit_12
+  - first:
+      213: 4527105062244607117
+    second: tile map boite de nuit_13
+  - first:
+      213: -3062711099495040612
+    second: tile map boite de nuit_14
+  - first:
+      213: -1931116144495676087
+    second: tile map boite de nuit_15
+  - first:
+      213: 4139451772196301986
+    second: tile map boite de nuit_16
+  - first:
+      213: 4954940755984542474
+    second: tile map boite de nuit_17
+  - first:
+      213: -3752071453077567510
+    second: tile map boite de nuit_18
+  - first:
+      213: 7835162191165136388
+    second: tile map boite de nuit_19
+  - first:
+      213: 4075616559084386979
+    second: tile map boite de nuit_20
+  - first:
+      213: -9043070230093408012
+    second: tile map boite de nuit_21
+  - first:
+      213: 1436324062163097659
+    second: tile map boite de nuit_22
+  - first:
+      213: 8155341636697657511
+    second: tile map boite de nuit_23
+  - first:
+      213: 3334906215258330246
+    second: tile map boite de nuit_24
+  - first:
+      213: -8324725026115104873
+    second: tile map boite de nuit_25
+  - first:
+      213: 7119201449794795382
+    second: tile map boite de nuit_26
+  - first:
+      213: 441422727184964916
+    second: tile map boite de nuit_27
+  - first:
+      213: 4652138715173767872
+    second: tile map boite de nuit_28
+  - first:
+      213: -9016791297295716745
+    second: tile map boite de nuit_29
+  - first:
+      213: -8814686515464727430
+    second: tile map boite de nuit_30
+  - first:
+      213: 4853197239469376074
+    second: tile map boite de nuit_31
+  - first:
+      213: -6637935169486148089
+    second: tile map boite de nuit_32
+  - first:
+      213: -1953467431534911393
+    second: tile map boite de nuit_33
+  - first:
+      213: -3201732606539029442
+    second: tile map boite de nuit_34
+  - first:
+      213: -9191053478215639276
+    second: tile map boite de nuit_35
+  - first:
+      213: 5118557421932023550
+    second: tile map boite de nuit_36
+  - first:
+      213: 3415860331836007464
+    second: tile map boite de nuit_37
+  - first:
+      213: -5026686866111754858
+    second: tile map boite de nuit_38
+  - first:
+      213: 5153233445624844075
+    second: tile map boite de nuit_39
+  - first:
+      213: 1328254952977391898
+    second: tile map boite de nuit_40
+  - first:
+      213: -2286724778226922500
+    second: tile map boite de nuit_41
+  - first:
+      213: 8138740820193244322
+    second: tile map boite de nuit_42
+  - first:
+      213: -3628021119780927916
+    second: tile map boite de nuit_43
+  - first:
+      213: 1075401737270391919
+    second: tile map boite de nuit_44
+  - first:
+      213: 8809679464705173136
+    second: tile map boite de nuit_45
+  - first:
+      213: -2410072335540656554
+    second: tile map boite de nuit_46
+  - first:
+      213: -2148113820852767570
+    second: tile map boite de nuit_47
+  - first:
+      213: 954594573845574343
+    second: tile map boite de nuit_48
+  - first:
+      213: 1174943538355030154
+    second: tile map boite de nuit_49
+  - first:
+      213: 6199422970195635392
+    second: tile map boite de nuit_50
+  - first:
+      213: -1646507075481783318
+    second: tile map boite de nuit_51
+  - first:
+      213: 390399150980957876
+    second: tile map boite de nuit_52
+  - first:
+      213: -471946200252859405
+    second: tile map boite de nuit_53
+  - first:
+      213: 3846224169330927143
+    second: tile map boite de nuit_54
+  - first:
+      213: 7000425602572243282
+    second: tile map boite de nuit_55
+  - first:
+      213: -6931813974084699664
+    second: tile map boite de nuit_56
+  - first:
+      213: -4600987436370150335
+    second: tile map boite de nuit_57
+  - first:
+      213: -9081730112032205559
+    second: tile map boite de nuit_58
+  - first:
+      213: 4607566420911778997
+    second: tile map boite de nuit_59
+  - first:
+      213: 5834540464369128556
+    second: tile map boite de nuit_60
+  - first:
+      213: 4534051022623372327
+    second: tile map boite de nuit_61
+  - first:
+      213: -2714051031788815662
+    second: tile map boite de nuit_62
+  - first:
+      213: -4132004431784165506
+    second: tile map boite de nuit_63
+  - first:
+      213: 7143859274225382411
+    second: tile map boite de nuit_64
+  - first:
+      213: -990164758272117623
+    second: tile map boite de nuit_65
+  - first:
+      213: -518937428836040266
+    second: tile map boite de nuit_66
+  - first:
+      213: -2263452589754211416
+    second: tile map boite de nuit_67
+  - first:
+      213: 3685216517842613808
+    second: tile map boite de nuit_68
+  - first:
+      213: -6767368769463183720
+    second: tile map boite de nuit_69
+  - first:
+      213: 7037132671422767833
+    second: tile map boite de nuit_70
+  - first:
+      213: -5326272292418385695
+    second: tile map boite de nuit_71
+  - first:
+      213: -4380644154998840958
+    second: tile map boite de nuit_72
+  - first:
+      213: -4139337779093402352
+    second: tile map boite de nuit_73
+  - first:
+      213: 2331493945523861511
+    second: tile map boite de nuit_74
+  - first:
+      213: -8163743791352154402
+    second: tile map boite de nuit_75
+  - first:
+      213: 8279230635041774286
+    second: tile map boite de nuit_76
+  - first:
+      213: -6643672628358148778
+    second: tile map boite de nuit_77
+  - first:
+      213: -6167945609603345499
+    second: tile map boite de nuit_78
+  - first:
+      213: -221950240197263295
+    second: tile map boite de nuit_79
+  - first:
+      213: 1611062750657092458
+    second: tile map boite de nuit_80
+  - first:
+      213: 5648151293927744550
+    second: tile map boite de nuit_81
+  - first:
+      213: -7773590531378287673
+    second: tile map boite de nuit_82
+  - first:
+      213: -2517327797484837973
+    second: tile map boite de nuit_83
+  - first:
+      213: 8203657215903152970
+    second: tile map boite de nuit_84
+  - first:
+      213: 1073166257452138266
+    second: tile map boite de nuit_85
+  - first:
+      213: 2291913818457157955
+    second: tile map boite de nuit_86
+  - first:
+      213: 2025994074921476836
+    second: tile map boite de nuit_87
+  - first:
+      213: 7476648634706792308
+    second: tile map boite de nuit_88
+  - first:
+      213: 9146626948026524600
+    second: tile map boite de nuit_89
+  - first:
+      213: 2403773735608052043
+    second: tile map boite de nuit_90
+  - first:
+      213: 8800211408998997205
+    second: tile map boite de nuit_91
+  - first:
+      213: -2787674435943923891
+    second: tile map boite de nuit_92
+  - first:
+      213: 7489811656677780760
+    second: tile map boite de nuit_93
+  - first:
+      213: 359834041811116840
+    second: tile map boite de nuit_94
+  - first:
+      213: -8897401120090755906
+    second: tile map boite de nuit_95
+  - first:
+      213: 4341540601874138105
+    second: tile map boite de nuit_96
+  - first:
+      213: -1135354257411070667
+    second: tile map boite de nuit_97
+  - first:
+      213: -8875087759832578904
+    second: tile map boite de nuit_98
+  - first:
+      213: -3171207693496261693
+    second: tile map boite de nuit_99
+  - first:
+      213: 5257737844833354738
+    second: tile map boite de nuit_100
+  - first:
+      213: -3395063463413268138
+    second: tile map boite de nuit_101
+  - first:
+      213: 500977220447375004
+    second: tile map boite de nuit_102
+  - first:
+      213: -1224368197005898915
+    second: tile map boite de nuit_103
+  - first:
+      213: -8434173041640131490
+    second: tile map boite de nuit_104
+  - first:
+      213: 2396555930508281838
+    second: tile map boite de nuit_105
+  - first:
+      213: 1382703316101309508
+    second: tile map boite de nuit_106
+  - first:
+      213: -4998071876745211936
+    second: tile map boite de nuit_107
+  - first:
+      213: 262341819575427632
+    second: tile map boite de nuit_108
+  - first:
+      213: 106826011509148429
+    second: tile map boite de nuit_109
+  - first:
+      213: -4758806955557995536
+    second: tile map boite de nuit_110
+  - first:
+      213: 997845554874601651
+    second: tile map boite de nuit_111
+  - first:
+      213: 4244328449749004227
+    second: tile map boite de nuit_112
+  - first:
+      213: -6522409916509802212
+    second: tile map boite de nuit_113
+  - first:
+      213: 4938453696731802214
+    second: tile map boite de nuit_114
+  - first:
+      213: -4223558436526168858
+    second: tile map boite de nuit_115
+  - first:
+      213: 8342121428103609412
+    second: tile map boite de nuit_116
+  - first:
+      213: 920175252228675019
+    second: tile map boite de nuit_117
+  - first:
+      213: 5405316308166442201
+    second: tile map boite de nuit_118
+  - first:
+      213: 5093759755664263988
+    second: tile map boite de nuit_119
+  - first:
+      213: -5600128588537071210
+    second: tile map boite de nuit_120
+  - first:
+      213: -9002093336580393059
+    second: tile map boite de nuit_121
+  - first:
+      213: 884847729009721465
+    second: tile map boite de nuit_122
+  - first:
+      213: -6865432988816495745
+    second: tile map boite de nuit_123
+  - first:
+      213: 5680562503175499101
+    second: tile map boite de nuit_124
+  - first:
+      213: -2216874185436410176
+    second: tile map boite de nuit_125
+  - first:
+      213: 268380412723935543
+    second: tile map boite de nuit_126
+  - first:
+      213: -7737172568192035770
+    second: tile map boite de nuit_127
+  - first:
+      213: 1261144960495318262
+    second: tile map boite de nuit_128
+  - first:
+      213: -2203656894534672906
+    second: tile map boite de nuit_129
+  - first:
+      213: -6915921445076327700
+    second: tile map boite de nuit_130
+  - first:
+      213: 2034596601984966612
+    second: tile map boite de nuit_131
+  - first:
+      213: -2232353215473973962
+    second: tile map boite de nuit_132
+  - first:
+      213: -3985453623943304551
+    second: tile map boite de nuit_133
+  - first:
+      213: 3871036664448350004
+    second: tile map boite de nuit_134
+  - first:
+      213: -8175259344240767581
+    second: tile map boite de nuit_135
+  - first:
+      213: 823961645089914707
+    second: tile map boite de nuit_136
+  - first:
+      213: 1391058048797181043
+    second: tile map boite de nuit_137
+  - first:
+      213: -5650347535975079736
+    second: tile map boite de nuit_138
+  - first:
+      213: 3956392156641914828
+    second: tile map boite de nuit_139
+  - first:
+      213: 1892214369242074120
+    second: tile map boite de nuit_140
+  - first:
+      213: -6071292153088645557
+    second: tile map boite de nuit_141
+  - first:
+      213: 8263814691374741910
+    second: tile map boite de nuit_142
+  - first:
+      213: 9049850053640719420
+    second: tile map boite de nuit_143
+  - first:
+      213: 5633012705784724710
+    second: tile map boite de nuit_144
+  - first:
+      213: -4649641065901982342
+    second: tile map boite de nuit_145
+  - first:
+      213: 4377627846215310385
+    second: tile map boite de nuit_146
+  - first:
+      213: -5458408822249950117
+    second: tile map boite de nuit_147
+  - first:
+      213: -2243013985761727947
+    second: tile map boite de nuit_148
+  - first:
+      213: -8104723698420590285
+    second: tile map boite de nuit_149
+  - first:
+      213: 104080609711587600
+    second: tile map boite de nuit_150
+  - first:
+      213: -2295909566720242858
+    second: tile map boite de nuit_151
+  - first:
+      213: -2295356368201628590
+    second: tile map boite de nuit_152
+  - first:
+      213: -1830667723087075917
+    second: tile map boite de nuit_153
+  - first:
+      213: -392188510972305653
+    second: tile map boite de nuit_154
+  - first:
+      213: -8261985465078661342
+    second: tile map boite de nuit_155
+  - first:
+      213: 140882078421923679
+    second: tile map boite de nuit_156
+  - first:
+      213: 205298651363655109
+    second: tile map boite de nuit_157
+  - first:
+      213: -1982173215504569339
+    second: tile map boite de nuit_158
+  - first:
+      213: 5014501275530240119
+    second: tile map boite de nuit_159
+  - first:
+      213: 7478402538573337684
+    second: tile map boite de nuit_160
+  - first:
+      213: -1301294877260880266
+    second: tile map boite de nuit_161
+  - first:
+      213: 1032981850539938275
+    second: tile map boite de nuit_162
+  - first:
+      213: 7704289715198313293
+    second: tile map boite de nuit_163
+  - first:
+      213: -6720899982906910992
+    second: tile map boite de nuit_164
+  - first:
+      213: -7181912168889043948
+    second: tile map boite de nuit_165
+  - first:
+      213: 2409786787820616190
+    second: tile map boite de nuit_166
+  - first:
+      213: -7256308516804085961
+    second: tile map boite de nuit_167
+  - first:
+      213: 8704553282196130733
+    second: tile map boite de nuit_168
+  - first:
+      213: 2698724904125246851
+    second: tile map boite de nuit_169
+  - first:
+      213: -5295886882188035573
+    second: tile map boite de nuit_170
+  - first:
+      213: 5423108690473177880
+    second: tile map boite de nuit_171
+  - first:
+      213: 6979979425584020720
+    second: tile map boite de nuit_172
+  - first:
+      213: 8269681136239568046
+    second: tile map boite de nuit_173
+  - first:
+      213: 358183658702929377
+    second: tile map boite de nuit_174
+  - first:
+      213: 1805985152804219825
+    second: tile map boite de nuit_175
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tile map boite de nuit_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 126
+        width: 112
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574203189c99d8780800000000000000
+      internalID: -8679111816138185611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile map boite de nuit_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd1aeba7fcad2120800000000000000
+      internalID: 2390757156944747971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile map boite de nuit_2
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec580c761afd91860800000000000000
+      internalID: 7501272538685670862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile map boite de nuit_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0520686d0e6aaf650800000000000000
+      internalID: 6267505316041458256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile map boite de nuit_4
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31599361c1c9d9c20800000000000000
+      internalID: 3214897353458291987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile map boite de nuit_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 116
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abd71b11923ee900800000000000000
+      internalID: 715564989604682660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile map boite de nuit_6
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 117
+        width: 128
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc5b65222877b4d0800000000000000
+      internalID: -3118892128878764853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile map boite de nuit_7
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d73dc269d5d12ed0800000000000000
+      internalID: -2440434393415862320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile map boite de nuit_8
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91efb4a8fe2049a90800000000000000
+      internalID: -7308213067474797031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile map boite de nuit_9
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5996bf38947ddd0800000000000000
+      internalID: -2461417840127142439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile map boite de nuit_10
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f257b64d4f171a5b0800000000000000
+      internalID: -5358876785244408529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile map boite de nuit_11
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3c95dee699ce9a0800000000000000
+      internalID: -6202413885088480278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile map boite de nuit_12
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 96
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0411fbb070673070800000000000000
+      internalID: 8086037693272757262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile map boite de nuit_13
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 96
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8466f7811283de30800000000000000
+      internalID: 4527105062244607117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile map boite de nuit_14
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 72
+        width: 128
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99b3f06b701f75d0800000000000000
+      internalID: -3062711099495040612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile map boite de nuit_15
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945305b191c4335e0800000000000000
+      internalID: -1931116144495676087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile map boite de nuit_16
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac2f9e7479427930800000000000000
+      internalID: 4139451772196301986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile map boite de nuit_17
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 76
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b609b7d5c73c440800000000000000
+      internalID: 4954940755984542474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile map boite de nuit_18
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae78d6b84e6fdebc0800000000000000
+      internalID: -3752071453077567510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile map boite de nuit_19
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e18f910861cbc60800000000000000
+      internalID: 7835162191165136388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile map boite de nuit_20
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aabcecbaaf7f8830800000000000000
+      internalID: 4075616559084386979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tile map boite de nuit_21
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 33
+        width: 128
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f85f58b98f808280800000000000000
+      internalID: -9043070230093408012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
