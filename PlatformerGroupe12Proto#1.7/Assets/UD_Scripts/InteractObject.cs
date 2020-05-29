@@ -10,6 +10,9 @@ public class InteractObject : MonoBehaviour
     public SimpleCameraShakeInCinemachine CS;
     public BloodEffect BE;
     public HackedEffect HE;
+    public GameObject ParticuleSystem;
+    private bool StartParticuleEffect;
+    private float particuleEffectTimer;
 
     public bool dead = false;
     private bool nearPlayer = false;
@@ -18,6 +21,7 @@ public class InteractObject : MonoBehaviour
     {
         dead = false;
         nearPlayer = false;
+        ParticuleEffectTimer = 0;
     }
 
     //Transplanter ce script dans Hacked pour éciter le bug de perte de hack quand tué au cac alors que hacked
@@ -39,11 +43,13 @@ public class InteractObject : MonoBehaviour
                 //gameObject.SetActive(false);
                 Ha.boom = true;
                 BE.RedEffect();
+                ParticuleSystem.SetActive(true);
+                StartParticuleEffect.SetActive(true);
                 FindObjectOfType<AudioManager>().Play("TêteExplosée");
                 CS.StartShake();
             }
         }
-
+        ((ParticuleEffectTimer));
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -60,5 +66,35 @@ public class InteractObject : MonoBehaviour
         {
             nearPlayer = false;
         }
+ 
     }
+
+    private void ParticuleEffectTimer() 
+    {
+        if (StartParticuleEffect == true)
+        {
+            particuleEffectTimer += Time.deltatime;
+            
+
+        }
+        if (particuleEffectTimer >= 1.0f) 
+        {
+
+            StartParticuleEffect = false;
+            particuleEffectTimer = 0;
+            ParticuleEffect.SetActive (false); 
+        }
+    }
+    
+        
+        
+        
+
+
+        
+        
+
+         
+    
+    
 }
