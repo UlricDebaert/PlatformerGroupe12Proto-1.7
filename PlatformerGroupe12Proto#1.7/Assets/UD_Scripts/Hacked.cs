@@ -35,6 +35,10 @@ public class Hacked : MonoBehaviour
 
     private Animator anim;
 
+    private bool startParticuleEffect;
+    private float particuleEffectTimer;
+    public ParticleSystem PaSy;
+
     void Start()
     {
         hacked = false;
@@ -42,6 +46,7 @@ public class Hacked : MonoBehaviour
         boom = false;
         disappear = false;
         canScream = true;
+        particuleEffectTimer = 0.0f;
     }
 
     // Update is called once per frame
@@ -58,6 +63,11 @@ public class Hacked : MonoBehaviour
 
         UpdateAnimation();
         CheckHackedEffect();
+    }
+
+    private void FixedUpdate()
+    {
+        ParticuleEffectTimer();
     }
 
     void CheckHack()
@@ -134,6 +144,7 @@ public class Hacked : MonoBehaviour
             hacked = false;
             HE.hacked = false;
             BE.RedEffect();
+            startParticuleEffect = true;
             FindObjectOfType<AudioManager>().Play("HackBoom");
             FindObjectOfType<AudioManager>().Play("TêteExplosée");
             CS.StartShake();
@@ -179,5 +190,25 @@ public class Hacked : MonoBehaviour
             disappearTimer = 0f;
         }
 
+    }
+
+    private void ParticuleEffectTimer()
+    {
+        if (startParticuleEffect == true)
+        {
+            particuleEffectTimer += Time.deltaTime;
+            PaSy.Emit(1);
+        }
+        else
+        {
+            PaSy.Stop();
+        }
+
+        if (particuleEffectTimer >= 1.0f)
+        {
+
+            startParticuleEffect = false;
+            particuleEffectTimer = 0;
+        }
     }
 }

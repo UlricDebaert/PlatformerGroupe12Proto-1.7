@@ -10,10 +10,9 @@ public class InteractObject : MonoBehaviour
     public SimpleCameraShakeInCinemachine CS;
     public BloodEffect BE;
     public HackedEffect HE;
-    public GameObject ParticuleSystem;
-    private bool StartParticuleEffect;
+    private bool startParticuleEffect;
     private float particuleEffectTimer;
-
+    public ParticleSystem PaSy;
     public bool dead = false;
     private bool nearPlayer = false;
 
@@ -21,7 +20,7 @@ public class InteractObject : MonoBehaviour
     {
         dead = false;
         nearPlayer = false;
-        ParticuleEffectTimer = 0;
+        particuleEffectTimer = 0.0f;
     }
 
     //Transplanter ce script dans Hacked pour éciter le bug de perte de hack quand tué au cac alors que hacked
@@ -33,7 +32,7 @@ public class InteractObject : MonoBehaviour
 
     public void FixedUpdate()
     {
-        if(PA != null && Ha != null && BE != null)
+        if(PA != null && Ha != null && BE != null) // && ParticuleSystem != null)
         {
             if (nearPlayer && PA.isAttacking && Ha.boom == false)
             {
@@ -43,13 +42,12 @@ public class InteractObject : MonoBehaviour
                 //gameObject.SetActive(false);
                 Ha.boom = true;
                 BE.RedEffect();
-                ParticuleSystem.SetActive(true);
-                StartParticuleEffect.SetActive(true);
+                startParticuleEffect = true;
                 FindObjectOfType<AudioManager>().Play("TêteExplosée");
                 CS.StartShake();
             }
+            ParticuleEffectTimer();
         }
-        ((ParticuleEffectTimer));
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -71,30 +69,21 @@ public class InteractObject : MonoBehaviour
 
     private void ParticuleEffectTimer() 
     {
-        if (StartParticuleEffect == true)
+        if (startParticuleEffect == true)
         {
-            particuleEffectTimer += Time.deltatime;
-            
-
+            particuleEffectTimer += Time.deltaTime;
+            PaSy.Emit(1);
         }
+        else
+        {
+            PaSy.Stop();
+        }
+
         if (particuleEffectTimer >= 1.0f) 
         {
 
-            StartParticuleEffect = false;
+            startParticuleEffect = false;
             particuleEffectTimer = 0;
-            ParticuleEffect.SetActive (false); 
         }
     }
-    
-        
-        
-        
-
-
-        
-        
-
-         
-    
-    
 }
