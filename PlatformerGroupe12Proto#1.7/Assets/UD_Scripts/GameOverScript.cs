@@ -13,6 +13,9 @@ public class GameOverScript : MonoBehaviour
     public GameObject Player;
     public GameObject DeathSound;
 
+    [SerializeField]
+    CursorHide CH;
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.P))
@@ -26,6 +29,7 @@ public class GameOverScript : MonoBehaviour
         Player.SetActive(false);
         DeathSound.SetActive(true);
         GameOverScreen.SetActive(true);
+        CH.ShowCursor();
         Time.timeScale = 0f;
         gameIsOver = true;
     }

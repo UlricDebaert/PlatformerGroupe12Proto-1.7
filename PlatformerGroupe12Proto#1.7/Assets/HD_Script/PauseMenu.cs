@@ -8,19 +8,25 @@ public class PauseMenu : MonoBehaviour
     public bool pause;
     public GameObject pauseMenuUI;
 
+    [SerializeField]
+    Timer timer;    
+    [SerializeField]
+    CursorHide CH;
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
 
             if (GameIsPaused)
-            { 
-         
+            {
+                CH.HideCursor();
                 Resume();
             }
                 
             else
             {
+                CH.ShowCursor();
                 Pause();
             }
         }
@@ -32,6 +38,7 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         GameIsPaused = false;
         pause = false;
+        CH.HideCursor();
     }
     void Pause()
     {
@@ -45,6 +52,11 @@ public class PauseMenu : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("Menu");
+    }
+
+    public void UnlimitedTime()
+    {
+        timer.remainingTime = 9999999f;
     }
 
     public void QuitGame() 
