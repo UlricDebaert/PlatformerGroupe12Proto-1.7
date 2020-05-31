@@ -4,12 +4,18 @@ using UnityEngine;
 
 public class PlayerScore : MonoBehaviour
 {
+    private bool scoreAchieved;
+
     public float score = 0f;
     [SerializeField]
     private float totalScore;
 
     [SerializeField]
     Timer Ti;
+    [SerializeField]
+    Notification No;
+    [SerializeField]
+    ProgressionSlider PrSl;
 
     private void Start()
     {
@@ -23,12 +29,18 @@ public class PlayerScore : MonoBehaviour
         {
             PointCalculate();
         }
+        if((score >= 30 && !scoreAchieved) || Input.GetKeyDown(KeyCode.O))
+        {
+            No.Appear();
+            PrSl.visible = true;
+            scoreAchieved = true;
+        }
         PlayerPrefs.SetFloat("PlayerScore", score);   
         PlayerPrefs.SetFloat("TotalScore", totalScore);   
     }
 
     void PointCalculate()
     {
-        totalScore = score * (Ti.remainingTime/2);
+        totalScore = score * (Ti.remainingTime/4);
     }
 }

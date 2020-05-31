@@ -11,14 +11,30 @@ public class ProgressionSlider : MonoBehaviour
     public Slider slider;
     public GameObject player;
 
-    // Update is called once per frame
+    public bool visible;
+
+    [SerializeField]
+    private Animator anim;
+
+    void Start()
+    {
+        visible = false;
+        anim = GetComponent<Animator>();
+    }
+
     void Update()
     {
         slider.value = CalculateSliderValue();
+        UpdateAnimation();
     }
 
     float CalculateSliderValue()
     {
         return (player.transform.position.x - playerStartPositionX) / (levelEndPositionX - playerStartPositionX);
+    }
+
+    void UpdateAnimation()
+    {
+        anim.SetBool("visible", visible);
     }
 }
