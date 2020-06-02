@@ -79,6 +79,7 @@ public class PlayerController : MonoBehaviour
     public Transform wallCheck;
     public Transform obstacleCheck;
     public Transform obstacleCheckDown;
+    //public GameObject player;
 
     public LayerMask whatIsGround;
 
@@ -109,6 +110,7 @@ public class PlayerController : MonoBehaviour
             CheckIfWallSliding();
             CheckJump();
             FreezeWallJump();
+            Teleporter();
         }
     }
 
@@ -359,12 +361,12 @@ public class PlayerController : MonoBehaviour
         if (canNormalJump) // && !(isTouchingWall&&facingDirection==movementInputDirection) && !(isTouchingWall&&movementInputDirection==0)) //la partie !(isTouchingWall&&movementInputDirection==0) vient empêcher le joueur de spammer le saut vertical quand sur mur mais rend plus difficil le wall jump
         {
             FindObjectOfType<AudioManager>().Play("Jump");
-            if (isOnMovingPlatform && movingPlatformGoesUp)
+            /*if (isOnMovingPlatform && movingPlatformGoesUp)
             {
                 print("platform jump");
                 rb.velocity = new Vector2(rb.velocity.x, jumpForce + 12);
             }
-            else rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            else*/ rb.velocity = new Vector2(rb.velocity.x, jumpForce);
 
             if (haveJump == true)
             {
@@ -573,5 +575,32 @@ public class PlayerController : MonoBehaviour
     public void GoDown()
     {
         movingPlatformGoesUp = false;
+    }
+
+    void Teleporter()
+    {
+        //Egouts
+        if (Input.GetKeyDown(KeyCode.J))
+        {
+            transform.position = new Vector2(1862.04f, 117.52f);
+        }
+
+        //Boite de Nuit
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            transform.position = new Vector2(2085.54f, 120.37f);
+        }
+
+        //VoituresVolantes
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            transform.position = new Vector2(2226.0f, 154.0f);
+        }
+
+        //2e Entrepot
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            transform.position = new Vector2(2428.0f, 204.0f);
+        }
     }
 }

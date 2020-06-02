@@ -1,0 +1,511 @@
+fileFormatVersion: 2
+guid: f75fcb90a420d6c438ebd058d2eaae62
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4562749060121725995
+    second: SS_deathPUCE_npc_ouvrier_0
+  - first:
+      213: 6874606608873089700
+    second: SS_deathPUCE_npc_ouvrier_1
+  - first:
+      213: -8015770346672153399
+    second: SS_deathPUCE_npc_ouvrier_2
+  - first:
+      213: 637414994912596228
+    second: SS_deathPUCE_npc_ouvrier_3
+  - first:
+      213: 1689723363356254378
+    second: SS_deathPUCE_npc_ouvrier_4
+  - first:
+      213: 3192956526978520077
+    second: SS_deathPUCE_npc_ouvrier_5
+  - first:
+      213: 5495550022644776411
+    second: SS_deathPUCE_npc_ouvrier_6
+  - first:
+      213: -1675448715536231836
+    second: SS_deathPUCE_npc_ouvrier_7
+  - first:
+      213: -3080324908286606332
+    second: SS_deathPUCE_npc_ouvrier_8
+  - first:
+      213: 3911573368858177956
+    second: SS_deathPUCE_npc_ouvrier_9
+  - first:
+      213: -1855358237401434241
+    second: SS_deathPUCE_npc_ouvrier_10
+  - first:
+      213: -663043655528013313
+    second: SS_deathPUCE_npc_ouvrier_11
+  - first:
+      213: 4262450811206876940
+    second: SS_deathPUCE_npc_ouvrier_12
+  - first:
+      213: -5870039536576337511
+    second: SS_deathPUCE_npc_ouvrier_13
+  - first:
+      213: -6343839498035314184
+    second: SS_deathPUCE_npc_ouvrier_14
+  - first:
+      213: -7524706624660147785
+    second: SS_deathPUCE_npc_ouvrier_15
+  - first:
+      213: 6438229852534378129
+    second: SS_deathPUCE_npc_ouvrier_16
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 13
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SS_deathPUCE_npc_ouvrier_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 179
+        width: 37
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3533228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c8dcf7814225f30800000000000000
+      internalID: 4562749060121725995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_deathPUCE_npc_ouvrier_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 179
+        width: 37
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3533228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aaee6c9942876f50800000000000000
+      internalID: 6874606608873089700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_deathPUCE_npc_ouvrier_2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 179
+        width: 37
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3533228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc1f7dc65342c090800000000000000
+      internalID: -8015770346672153399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_deathPUCE_npc_ouvrier_3
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 179
+        width: 37
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3533228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401d54a8f8d88d800800000000000000
+      internalID: 637414994912596228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_deathPUCE_npc_ouvrier_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 122
+        width: 37
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3533228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa02789427a137710800000000000000
+      internalID: 1689723363356254378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_deathPUCE_npc_ouvrier_5
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 122
+        width: 37
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3533228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04d1d55b09af4c20800000000000000
+      internalID: 3192956526978520077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_deathPUCE_npc_ouvrier_6
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 122
+        width: 37
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3533228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddb12101ad144c40800000000000000
+      internalID: 5495550022644776411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_deathPUCE_npc_ouvrier_7
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 122
+        width: 37
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3533228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4621417254c9fb8e0800000000000000
+      internalID: -1675448715536231836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_deathPUCE_npc_ouvrier_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 37
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3533228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4040ac0f0dc7045d0800000000000000
+      internalID: -3080324908286606332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_deathPUCE_npc_ouvrier_9
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 65
+        width: 37
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3533228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a17bab2143b84630800000000000000
+      internalID: 3911573368858177956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_deathPUCE_npc_ouvrier_10
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 65
+        width: 37
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3533228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77b79063817046e0800000000000000
+      internalID: -1855358237401434241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_deathPUCE_npc_ouvrier_11
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 65
+        width: 37
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3533228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff12da9ee456cc6f0800000000000000
+      internalID: -663043655528013313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_deathPUCE_npc_ouvrier_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 37
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3533228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0fbf8aed64472b30800000000000000
+      internalID: 4262450811206876940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_deathPUCE_npc_ouvrier_13
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 8
+        width: 37
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3533228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9996edc642e698ea0800000000000000
+      internalID: -5870039536576337511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_deathPUCE_npc_ouvrier_14
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 8
+        width: 37
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3533228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1438f669726f7a0800000000000000
+      internalID: -6343839498035314184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_deathPUCE_npc_ouvrier_15
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 8
+        width: 37
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3533228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b17a16413fd29790800000000000000
+      internalID: -7524706624660147785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_deathPUCE_npc_ouvrier_16
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 235
+        width: 37
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3533228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e80ae80ff295950800000000000000
+      internalID: 6438229852534378129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
