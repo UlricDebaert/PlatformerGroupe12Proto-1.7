@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dee0ee34500de446983d132e01ebab2, type: 3}
+  m_Name: cascadetile
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 2558756393398202933, guid: 8ad667f61d9d531429fa6925e760a0ec, type: 3}
+  - {fileID: 4929485305399818895, guid: 8ad667f61d9d531429fa6925e760a0ec, type: 3}
+  - {fileID: -3251550509127332984, guid: 8ad667f61d9d531429fa6925e760a0ec, type: 3}
+  - {fileID: -531689601886163915, guid: 8ad667f61d9d531429fa6925e760a0ec, type: 3}
+  - {fileID: -8441104570393413096, guid: 8ad667f61d9d531429fa6925e760a0ec, type: 3}
+  m_MinSpeed: 6
+  m_MaxSpeed: 6
+  m_AnimationStartTime: 0
+  m_TileColliderType: 0
