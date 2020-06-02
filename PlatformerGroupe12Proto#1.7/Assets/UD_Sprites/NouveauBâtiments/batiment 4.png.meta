@@ -1,7 +1,127 @@
 fileFormatVersion: 2
 guid: e9a082efb869de14e813fc2052f79a09
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -7519462269062351654
+    second: batiment 4_0
+  - first:
+      213: 268112425993412184
+    second: batiment 4_1
+  - first:
+      213: 3143647961125301222
+    second: batiment 4_2
+  - first:
+      213: 6114681312569052493
+    second: batiment 4_3
+  - first:
+      213: -5657185069915966294
+    second: batiment 4_4
+  - first:
+      213: 1695606488202724708
+    second: batiment 4_5
+  - first:
+      213: -2553331916171266090
+    second: batiment 4_6
+  - first:
+      213: 5918829344003795652
+    second: batiment 4_7
+  - first:
+      213: -6052203248086285343
+    second: batiment 4_8
+  - first:
+      213: -5365519337432054993
+    second: batiment 4_9
+  - first:
+      213: 6534814638583501336
+    second: batiment 4_10
+  - first:
+      213: 1697137958867249768
+    second: batiment 4_11
+  - first:
+      213: 3044017475792353300
+    second: batiment 4_12
+  - first:
+      213: -5131719303580055272
+    second: batiment 4_13
+  - first:
+      213: -5434765774425515338
+    second: batiment 4_14
+  - first:
+      213: -6563945200300885930
+    second: batiment 4_15
+  - first:
+      213: -2466482738224218528
+    second: batiment 4_16
+  - first:
+      213: -1934128235722682775
+    second: batiment 4_17
+  - first:
+      213: -808886067883442518
+    second: batiment 4_18
+  - first:
+      213: -6304917273382782959
+    second: batiment 4_19
+  - first:
+      213: 2557433361386984271
+    second: batiment 4_20
+  - first:
+      213: 8956536984431727830
+    second: batiment 4_21
+  - first:
+      213: 1900200798638286937
+    second: batiment 4_22
+  - first:
+      213: 3873384691262332108
+    second: batiment 4_23
+  - first:
+      213: -8411323982205171600
+    second: batiment 4_24
+  - first:
+      213: -667309013306644847
+    second: batiment 4_25
+  - first:
+      213: -2631451192959680185
+    second: batiment 4_26
+  - first:
+      213: -7913494747445703155
+    second: batiment 4_27
+  - first:
+      213: 5766100338374277588
+    second: batiment 4_28
+  - first:
+      213: -3601055075962240567
+    second: batiment 4_29
+  - first:
+      213: -218339553396685442
+    second: batiment 4_30
+  - first:
+      213: -8597855704678821145
+    second: batiment 4_31
+  - first:
+      213: -8731541773351819923
+    second: batiment 4_32
+  - first:
+      213: 1101256576874384096
+    second: batiment 4_33
+  - first:
+      213: 2456192770410069493
+    second: batiment 4_34
+  - first:
+      213: -6448885761213861477
+    second: batiment 4_35
+  - first:
+      213: -7904888192875059323
+    second: batiment 4_36
+  - first:
+      213: -5563960060972048288
+    second: batiment 4_37
+  - first:
+      213: -7258319723931986268
+    second: batiment 4_38
+  - first:
+      213: -2486033358494953910
+    second: batiment 4_39
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
