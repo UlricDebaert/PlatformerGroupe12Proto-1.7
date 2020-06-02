@@ -166,7 +166,7 @@ public class Hacked : MonoBehaviour
         if (disappear)
         {
             disappearTimer += Time.deltaTime;
-            if (disappearTimer > 1.0f)
+            if (disappearTimer >= 1.0f)
             {
                 gameObject.SetActive(false);
 
