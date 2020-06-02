@@ -10,10 +10,23 @@ public class ParallaxBackgroundMovement : MonoBehaviour
 
     float playerStartX, playerStartY;
 
+    [Header("Offset")]
+
+    [SerializeField] bool useOffset = false;
+    [SerializeField] float XOffset = 0f, YOffset = 0f;
+
     private void Start()
     {
-        playerStartX = Camera.main.transform.position.x;
-        playerStartY = Camera.main.transform.position.y;
+        if(!useOffset)
+        {
+            playerStartX = Camera.main.transform.position.x;
+            playerStartY = Camera.main.transform.position.y;
+        }
+        else
+        {
+            playerStartX = Camera.main.transform.position.x + XOffset;
+            playerStartY = Camera.main.transform.position.y + YOffset;
+        }
     }
 
     void LateUpdate()
